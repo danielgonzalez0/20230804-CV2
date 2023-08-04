@@ -1,0 +1,47 @@
+.contentHook {
+  margin-bottom: 15px;
+  position: relative;
+    &:last-child{
+    margin: 0;
+  }
+  &:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: -25px;
+    width: 18px;
+    height: 18px;
+    border-radius: 15px;
+    background: $yellow;
+    z-index: 2;
+  }
+  &:before {
+    position: absolute;
+    content: '';
+    top: 6px;
+    left: -18px;
+    width: 6px;
+    height: 6px;
+    border-radius: 15px;
+    background: $black2;
+    z-index: 3;
+  }
+  h4 {
+    font-size: $h5-font-size;
+  }
+  h5 {
+    font-size: $h5-font-size;
+    font-weight: 400;
+  }
+  p {
+    padding: 10px 0;
+    font-size: $h6-font-size;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    span {
+      display: block;
+      width: 100%;
+    }
+  }
+}

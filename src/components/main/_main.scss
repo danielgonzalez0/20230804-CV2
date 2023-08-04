@@ -1,0 +1,50 @@
+.education,
+.certification,
+.experience {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  background: $white1;
+  .education-left,
+  .certification-left,
+  .experience-left {
+    margin-right: 30px;
+    p {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      span {
+        transform: rotate(270deg);
+        font-weight: 700;
+        color: $black2;
+        font-size: $h3-font-size;
+      }
+    }
+  }
+}
+
+.certification {
+  background: $white2;
+}
+.certification-left {
+  background: $yellow;
+}
+
+.education-container,
+.certification-container,
+.experience-container {
+  position: relative;
+  padding-left: 1.5rem;
+  margin: 1.05rem 0;
+  &:after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 1.5px;
+    top: 0;
+    left: 8px;
+    background: $black2;
+    z-index: 1;
+  }
+}

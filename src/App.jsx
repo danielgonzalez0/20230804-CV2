@@ -3,6 +3,10 @@ import html2canvas from 'html2canvas';
 import jsPDF from 'jspdf';
 import Header from './components/header/Header';
 import Sidebar from './components/sidebar/Sidebar';
+import Education from './components/main/Education';
+import Certification from './components/main/Certification';
+import Experience from './components/main/Experience';
+import Footer from './components/footer/Footer';
 // import html2pdf from 'html2pdf.js';
 
 const App = () => {
@@ -12,8 +16,7 @@ const App = () => {
   const handlePrint = async () => {
     if (!isCapturing && pdfRef.current) {
       setIsCapturing(true);
-      
-   
+
       // const options = {
       //   filename: 'cv-daniel-gonzalez.pdf',
       //   margin: 0,
@@ -86,9 +89,15 @@ const App = () => {
       <div className="app" ref={pdfRef}>
         <div className="main">
           <Header />
+          <div className="main-container">
+            <Education />
+            <Certification />
+            <Experience />
+          </div>
+          <Footer />
         </div>
         <div className="sidebar">
-          <Sidebar/>
+          <Sidebar />
         </div>
       </div>
     </>
