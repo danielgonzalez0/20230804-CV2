@@ -9,3 +9,107 @@
     font-size: $h5-font-size;
   }
 }
+
+//stack part
+.stack {
+  padding: 30px 0 10px;
+  img {
+    filter: none;
+    width: 25px;
+    height: 25px;
+  }
+  ul {
+    padding: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  li {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 20%;
+    align-items: center;
+    justify-content: center;
+    span {
+      font-size: $h7-font-size;
+      font-weight: 500;
+      text-align: center;
+      padding: 5px 0 10px;
+    }
+  }
+}
+
+//softSkills
+.softSkills {
+  ul {
+    padding: 1rem 0;
+  }
+  li {
+    height: 40px;
+  }
+}
+
+//langues
+//stack part
+.langue {
+  padding: 10px 0 10px;
+  img {
+    filter: none;
+    width: 25px;
+    height: 25px;
+  }
+  ul {
+    padding: 1rem 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+  }
+  li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    span {
+      font-size: $h6-font-size;
+      font-weight: 500;
+      text-align: center;
+      padding: 5px 0 0;
+    }
+  }
+}
+
+//contact
+.contact {
+    min-height: 225px;
+ padding: 1.5rem;
+  background: $yellow;
+  color: $black2;
+  position: relative;
+  font-size: $h6-font-size;
+
+  p{
+    color: $black3;
+    font-weight: 400;
+  }
+
+  .container{
+    margin: 5px 0;
+  }
+  img {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    width: 50px;
+    height: 52px;
+  }
+
+  .adresse-container{
+position: absolute;
+bottom: 30px;
+font-size: $h7-font-size;
+  }
+
+}
