@@ -58,9 +58,27 @@ a:visited {
 }
 
 //
-.app{
-  width: 210mm;
-  height: 297mm;
-  background-color: red;
+.app {
+  width: 794px;
+  height: 1122px;
   margin: 0 auto;
+  display: flex;
+  .main {
+    width: 70%;
+    background-color: red;
+  }
+  .sidebar {
+    width: 30%;
+    background-color: $black2;
+  }
+}
+
+#btn-print {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  border-radius: 5px;
+  background: $black2;
+  color: $yellow;
 }
