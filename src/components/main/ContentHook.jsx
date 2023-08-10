@@ -6,7 +6,7 @@ const ContentHook = ({ title, subtitle, desc }) => {
     <div className="contentHook">
       <h4>{title}</h4>
       <h5>{subtitle}</h5>
-      {desc && <p>{desc}</p>}
+      {desc && <ul className='contentHook-desc'>{desc}</ul>}
     </div>
   );
 };

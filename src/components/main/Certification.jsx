@@ -3,18 +3,62 @@ import ContentHook from './ContentHook';
 
 const Certification = () => {
   const array1 = [
-    `Créer des applications web avec Javascript et React`,
-    `Mettre en place des dashboards et des graphiques`,
-    `Moderniser / optimiser du code existant`,
-    `Mettre en œuvre des test unitaires et d'intégration`,
-    `Créer des algorithmes de recherche et de tri`,
+    {
+      title: `Créer des applications web`,
+      icons: ['REACT', 'REDUX', 'Design pattern', 'Custom hooks'],
+    },
+    {
+      title: `Mettre en place des dashboards et des graphiques`,
+      icons: ['librairies REACT'],
+    },
+    {
+      title: `Moderniser / optimiser du code existant`,
+      icons: ['Custom hooks', 'Refactoring'],
+    },
+    {
+      title: `Mettre en œuvre des test unitaires et d'intégration`,
+      icons: ['JEST', 'JEST-DOM'],
+    },
+    { title: `Créer des algorithmes de recherche`, icons: ['Algorigramme', `fiche d'investigation`] },
   ];
   const array2 = [
-    `Intégrer une maquette en HTML / CSS`,
-    `Créer des animations avec Sass`,
-    `Appliquer les standards du web (SEO, accessibilité)`,
-    `Utiliser JS pour créer des interactions avec l'utilisateur`,
-    `Créer et gérer une base de données NoSQL et SQL`,
+    {
+      title: `Intégrer une maquette`,
+      icons: ['HTML', 'CSS'],
+    },
+    {
+      title: `Créer des animations avec Sass`,
+      icons: ['SASS'],
+    },
+    {
+      title: `Optimiser un site existant`,
+      icons: [
+        'SEO',
+        'PERFORMANCE',
+        'ACCESSIBILITÉ',
+      ],
+    },
+    {
+      title: `Utiliser JS pour créer des interactions`,
+      icons: [
+        'JS',
+        'DOM',
+        'Refactoring'
+      ],
+    },
+    {
+      title: `Créer une API sécurisée`,
+      icons: ['MONGODB', 'JWT', 'EXPRESS', 'BCRYPT'],
+    },
+    {
+      title: `Créer un réseau social d'entreprise`,
+      icons: [
+        'REACT',
+        'REDUX',
+        'MySQL',
+        'EXPRESS',
+      ],
+    },
   ];
 
   const certification = [
@@ -24,7 +68,17 @@ const Certification = () => {
       desc: (
         <>
           {array1.map((skill, index) => {
-            return <span key={index}>{skill}</span>;
+            return (
+              <li key={index}>
+                <div className="desc-p"> {skill.title}</div>
+                <div className="desc-span">
+                  {' '}
+                  {skill.icons.map((icon, index) => {
+                    return <span key={index}>{icon}</span>;
+                  })}
+                </div>
+              </li>
+            );
           })}
         </>
       ),
@@ -35,7 +89,17 @@ const Certification = () => {
       desc: (
         <>
           {array2.map((skill, index) => {
-            return <span key={index}>{skill}</span>;
+            return (
+              <li key={index}>
+                <div className="desc-p"> {skill.title}</div>
+                <div className="desc-span">
+                  {' '}
+                  {skill.icons.map((icon, index) => {
+                    return <span key={index}>{icon}</span>;
+                  })}
+                </div>
+              </li>
+            );
           })}
         </>
       ),

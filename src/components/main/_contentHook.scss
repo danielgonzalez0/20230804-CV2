@@ -1,13 +1,13 @@
 .contentHook {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   position: relative;
-    &:last-child{
+  &:last-child {
     margin: 0;
   }
   &:after {
     position: absolute;
     content: '';
-    top: 0;
+    top: -1px;
     left: -25px;
     width: 18px;
     height: 18px;
@@ -18,8 +18,8 @@
   &:before {
     position: absolute;
     content: '';
-    top: 6px;
-    left: -18px;
+    top: 5px;
+    left: -18.5px;
     width: 6px;
     height: 6px;
     border-radius: 15px;
@@ -33,15 +33,39 @@
     font-size: $h5-font-size;
     font-weight: 400;
   }
-  p {
-    padding: 10px 0;
+  .contentHook-desc {
+    padding: 8px 0;
     font-size: $h6-font-size;
     font-weight: 400;
     display: flex;
     flex-direction: column;
-    span {
+    li {
       display: block;
       width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      margin: 2px 0;
+
+      .desc-p {
+        margin-right: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .desc-span {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+      }
+      span {
+        display: inline;
+        font-size: $h7-font-size;
+        font-weight: 500;
+        padding: 2px 5px;
+        background: $grey2;
+        color: $white2;
+        border-radius: 5px;
+      }
     }
   }
 }

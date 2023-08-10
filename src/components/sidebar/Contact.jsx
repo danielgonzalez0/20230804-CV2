@@ -1,5 +1,5 @@
 import React from 'react';
-import qrcode from '../../assets/img/logo2/qr-code-linkedin.png';
+import qrcode from '../../assets/img/logo2/qr-code-portfolio.png';
 
 const Contact = () => {
   return (

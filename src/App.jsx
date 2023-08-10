@@ -62,6 +62,7 @@ const App = () => {
         const imgX = (pdfWidth - imgWidth * ratio) / 2;
         const imgY = 0;
 
+        console.log(imgWidth * ratio, imgHeight * ratio);
         pdf.addImage(
           capturedImage,
           'PNG',

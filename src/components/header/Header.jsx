@@ -1,7 +1,7 @@
 import React from 'react';
 
 const text = `En reconversion, je suis aujourd'hui à la recherche d'un premier poste développeur frontend junior. 
-Professionnel doté d'une forte expérience en contrôle de gestion, je suis capable de fonctionner de manière autonome, et fais preuve d'un solide sens de l'organisation et de capacités d’analyse avérées. 
+Professionnel doté d'une grande expérience en contrôle de gestion, je suis capable de fonctionner de manière autonome, et fais preuve d'un fort sens de l'organisation et de capacités d’analyse avérées. 
 De nature empathique, je suis à l’écoute des autres et je peux facilement travailler en équipe.
 `;
 

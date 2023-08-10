@@ -16,12 +16,12 @@ const Experience = () => {
     {
       title: 'Contrôleur de gestion bancaire 04/2011 - 03/2012',
       sub: 'KBL SWISS Private Banking, Genève Suisse',
-      desc: `Elaboration et suivi budgétaire, pilotage et analyse du résultat et de la comptabilité analytique`,
+      desc: `Elaboration et suivi budgétaire, pilotage et analyse du résultat`,
     },
     {
       title: 'Financial account manager 07/2019 - 04/2021',
       sub: 'Société Générale (SGCIB), la  Défense ',
-      desc: `Analyse des frais généraux et présentation des reporting, intégration des données (Essbase), gestion des bases de données(Access)`,
+      desc: `Analyse des frais généraux et présentation des reporting, intégration et gestion des bases de données(Access)`,
     },
   ];
   return (
