@@ -19,7 +19,7 @@ const Experience = () => {
       desc: `Elaboration et suivi budgétaire, pilotage et analyse du résultat`,
     },
     {
-      title: 'Financial account manager 07/2019 - 04/2021',
+      title: 'Financial account manager 08/2006 - 12/2010',
       sub: 'Société Générale (SGCIB), la  Défense ',
       desc: `Analyse des frais généraux et présentation des reporting, intégration et gestion des bases de données(Access)`,
     },
