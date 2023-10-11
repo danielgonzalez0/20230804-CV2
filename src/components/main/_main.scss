@@ -32,11 +32,26 @@
 }
 
 .education-container,
-.certification-container,
-.experience-container {
+.certification-container {
   position: relative;
   padding-left: 1.5rem;
   margin: 1.05rem 0;
+  &:after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 1.5px;
+    top: 0px;
+    left: 8px;
+    background: $black2;
+    z-index: 1;
+  }
+
+}
+.experience-container {
+  position: relative;
+  padding-left: 1.5rem;
+  margin: 0 0 0 0;
   &:after {
     position: absolute;
     content: '';

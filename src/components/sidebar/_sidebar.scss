@@ -11,7 +11,10 @@
 
 //stack part
 .stack {
-  padding: 30px 0 10px;
+  padding: 0 0 10px;
+  h3 {
+    padding-bottom: 16px;
+  }
   img {
     filter: none;
     width: 25px;
@@ -43,14 +46,14 @@
 //softSkills
 .softSkills {
   ul {
-    padding: 1rem 0;
+    padding: 1.5rem 0;
   }
   li {
     height: 40px;
     display: flex;
     align-items: center;
 
-      img {
+    img {
       width: 20px;
       height: 20px;
       background: $white2;
@@ -62,7 +65,10 @@
 //langues
 //stack part
 .langue {
-  padding: 10px 0 10px;
+  padding: 20px 0 10px;
+  h3 {
+    padding-bottom: 16px;
+  }
   img {
     filter: none;
     width: 25px;
@@ -92,7 +98,7 @@
 
 //contact
 .contact {
-  min-height: 225px;
+  height: 240px;
   padding: 1.5rem;
   background: $yellow;
   color: $black2;

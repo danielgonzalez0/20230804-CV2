@@ -88,17 +88,17 @@ const App = () => {
         Print
       </button>
       <div className="app" ref={pdfRef}>
+        <div className="sidebar">
+          <Sidebar />
+        </div>
         <div className="main">
           <Header />
           <div className="main-container">
-            <Education />
             <Certification />
+            <Education />
             <Experience />
           </div>
           <Footer />
-        </div>
-        <div className="sidebar">
-          <Sidebar />
         </div>
       </div>
     </>

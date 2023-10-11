@@ -9,10 +9,11 @@ const Header = () => {
   return (
     <header>
       <div className="logoCv-container">
-        <p>CV</p>
+        <p><span>A</span><span>PROPOS</span></p>
       </div>
       <div className="about-container">
-        <h3>A PROPOS DE MOI</h3>
+        <h3>Daniel Gonzalez</h3>
+        <h4>Développeur Front-End</h4>
         <p>{text}</p>
       </div>
     </header>

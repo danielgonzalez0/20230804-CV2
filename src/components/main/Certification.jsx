@@ -84,7 +84,7 @@ const Certification = () => {
       ),
     },
     {
-      title: 'Développeur web 07/2021 - 08/2021',
+      title: 'Développeur web 07/2021 - 08/2022',
       sub: 'formation Openclassrooms - titre RNCP niveau 5',
       desc: (
         <>
