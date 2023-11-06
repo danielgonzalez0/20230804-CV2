@@ -1,5 +1,5 @@
 .user {
-  padding: 1.5rem;
+  padding: 1.2rem;
   color: $white2;
   h1 {
     font-size: $h3-font-size;
@@ -35,7 +35,7 @@
     justify-content: center;
 
     span {
-      font-size: $h7-font-size;
+      font-size: $h6-font-size;
       font-weight: 500;
       text-align: center;
       padding: 5px 0 10px;
@@ -98,7 +98,7 @@
 
 //contact
 .contact {
-  height: 240px;
+  height: 244px;
   padding: 1.5rem;
   background: $yellow;
   color: $black2;
@@ -124,6 +124,6 @@
   .adresse-container {
     position: absolute;
     bottom: 30px;
-    font-size: $h7-font-size;
+    font-size: $h6-font-size;
   }
 }
