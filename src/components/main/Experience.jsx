@@ -9,7 +9,7 @@ const Experience = () => {
       desc: `Elaboration et suivi budgétaire, pilotage et analyse du résultat, élaboration du compte de résultat et bilan aux mormes IFRS`,
     },
     {
-      title: 'Conrtôleur de gestion 07/2012 - 07/2019',
+      title: 'Contrôleur de gestion 07/2012 - 07/2019',
       sub: 'Alphabet (BMW group), Rueil-Malmaison',
       desc: `Budget et forecast, risque sur la valeur résiduelle, marge opérationnelle assurance et contract management, suivi de la flotte de la profitabilité`,
     },
