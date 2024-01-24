@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer>
-      <h3>MEDIA PRO</h3>
+      <h3>LIENS</h3>
       <ul className="media-container">
         <li>
           <span className="fa-brands fa-linkedin"></span>

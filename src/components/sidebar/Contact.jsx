@@ -4,7 +4,7 @@ import qrcode from '../../assets/img/logo2/qr-code-portfolio.png';
 const Contact = () => {
   return (
     <div className="contact">
-      <h3>COORDONNÉES</h3>
+      <h3>DONNÉES PERSONNELLES</h3>
       <div className="container">
         <h4>TEL</h4>
         <p>+33 6 60 29 91 14</p>

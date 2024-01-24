@@ -4,22 +4,22 @@ import ContentHook from './ContentHook';
 const Certification = () => {
   const array1 = [
     {
-      title: `Créer des applications web`,
+      title: `Création d'applications web`,
       icons: ['REACT', 'REDUX', 'Design pattern', 'Custom hooks'],
     },
     {
-      title: `Mettre en place des dashboards et des graphiques`,
+      title: `Mise en place de dashboards et de graphiques`,
       icons: ['librairies REACT'],
     },
     {
-      title: `Moderniser / optimiser du code existant`,
+      title: `Modernisation / optimisation de code existant`,
       icons: ['Custom hooks', 'Refactoring'],
     },
     {
-      title: `Mettre en œuvre des test unitaires et d'intégration`,
+      title: `Mise en œuvre des test unitaires et d'intégration`,
       icons: ['JEST', 'JEST-DOM'],
     },
-    { title: `Créer des algorithmes de recherche`, icons: ['Algorigramme', `fiche d'investigation`] },
+    { title: `Création d'algorithmes de recherche`, icons: ['Algorigramme', `fiche d'investigation`] },
   ];
   const array2 = [
     {
@@ -63,7 +63,7 @@ const Certification = () => {
 
   const certification = [
     {
-      title: 'Développeur Frontend - Javascript React 09/2022 - 09/2023',
+      title: 'Développeur Frontend - Javascript ReactJS 09/2022 - 09/2023',
       sub: 'formation Openclassrooms - titre RNCP niveau 6',
       desc: (
         <>

@@ -25,7 +25,7 @@ const Stack = () => {
   ];
   return (
     <div className="stack">
-      <h3>Stack Technique</h3>
+      <h3>Compétences techniques</h3>
       <ul className="stack-container">
         {array.map((stack, index) => {
           return (
