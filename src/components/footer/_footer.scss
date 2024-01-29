@@ -1,22 +1,26 @@
 footer {
   background: $black2;
   display: flex;
+  justify-content: space-between;
   color: $white2;
-  padding: 10px 1.5rem;
+  padding:  10px 1.5rem 10px 0;
   position: absolute;
-  bottom: 0;
+  top: 185px;
   right: 0;
   width: 70%;
   
 
   h3 {
+    text-align: center;
     width: 20%;
+  
   }
 
   .media-container {
     width: 80%;
     display: flex;
     font-size: $h6-font-size;
+    flex-wrap: wrap;
   }
   li {
     flex: 1 0 50%;

@@ -109,7 +109,7 @@ const Certification = () => {
     <div className="certification">
       <div className="certification-left">
         <p>
-          <span>CERTIFICATION</span>
+          <span>PROJETS</span>
         </p>
       </div>
       <div className="certification-container">

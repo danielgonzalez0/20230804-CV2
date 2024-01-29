@@ -1,0 +1,85 @@
+{
+  "projets": [
+    {
+      "title": "Clone Disney plus",
+      "desc": "Application React utilisant des appels API, firebase pour simuler authentification user et faire percister les données.",
+      "links": [
+        "https://github.com/danielgonzalez0/20230812-Disney-plus-test",
+        "https://20230812-disney-plus-test.vercel.app/"
+      ],
+      "icons": [
+        "REACT",
+        "REDUX",
+        "FIREBASE",
+        "REACT-QUERY",
+        "STYLED-COMPONENTS",
+        "REACT-PLAYER"
+      ]
+    },
+    {
+      "title": "Dashboard Crypto-monnaies",
+      "desc": "Dashboard React utilisant l'appel API CoinGecko. Possibilité de filtrer, trier et enregistrer vos crypto-monnaies préférées.",
+      "links": [
+        "https://github.com/danielgonzalez0/TP4-crypto-watch-dashboard-react",
+        "https://tp-4-crypto-watch-dashboard-react.vercel.app/"
+      ],
+      "icons": [
+        "REACT",
+        "REDUX",
+        "RECHARTS",
+        "AXIOS",
+        "SASS",
+        "API COINGECKO"
+      ]
+    },
+    {
+      "title": "Portail RH - HRnet",
+      "desc": "Interface React pour consulter et gérer une liste d'employés. fonctionnalités: formulaire, dashboard, pagination, tri, filtre, recherche,...",
+      "links": [
+        "https://github.com/danielgonzalez0/P14-OC-20230612-HRnet",
+        "https://p14-oc-20230612-h-rnet.vercel.app/"
+      ],
+      "icons": [
+        "REACT",
+        "REDUX",
+        "REACT-TABLE",
+        "REACT-HOOK-FORM",
+        "SASS",
+        "ESLINT"
+      ]
+    },
+    {
+      "title": "Kasa - site de location de logements",
+      "desc": "Refonte site vitrine en React pour la partie front-end",
+      "links": [
+        "https://github.com/danielgonzalez0/P11-OC-20230327-Kasa",
+        "https://p11-oc-20230327-kasa.vercel.app/"
+      ],
+      "icons": [
+        "REACT",
+        "REAT-ROUTER-DOM",
+        "SASS",
+        "PROP-TYPES",
+        "ACCESSIBILITE",
+        "ESLINT"
+      ]
+    },
+    {
+      "title": "GROUPOMANIA: Réseau social d'entreprise",
+      "desc": "Création d'un réseau social d'entreprise en React pour le front, Node.js pour le back et MySQL pour la base de données",
+      "links": [
+        "https://github.com/danielgonzalez0/DanielGonzalez_7_28042022",
+        "https://www.youtube.com/watch?v=ATJyLR6_BIg"
+      ],
+      "icons": [
+        "REACT",
+        "REDUX",
+        "EXPRESS",
+        "NODE.JS",
+        "MYSQL",
+        "SASS"
+      
+      ]
+    }
+  ]
+}

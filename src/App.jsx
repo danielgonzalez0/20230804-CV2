@@ -4,9 +4,9 @@ import jsPDF from 'jspdf';
 import Header from './components/header/Header';
 import Sidebar from './components/sidebar/Sidebar';
 import Education from './components/main/Education';
-import Certification from './components/main/Certification';
 import Experience from './components/main/Experience';
 import Footer from './components/footer/Footer';
+import Projets from './components/main/Projets';
 
 const App = () => {
   const pdfRef = useRef(null);
@@ -58,12 +58,12 @@ const App = () => {
         </div>
         <div className="main">
           <Header />
+          <Footer />
           <div className="main-container">
-            <Certification />
+           <Projets/>
             <Education />
             <Experience />
           </div>
-          <Footer />
         </div>
       </div>
     </>

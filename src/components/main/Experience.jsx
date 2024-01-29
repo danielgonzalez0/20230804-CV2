@@ -6,22 +6,22 @@ const Experience = () => {
     {
       title: 'Contrôleur de gestion retail 07/2019 - 04/2021',
       sub: 'FCA Capital France, Trappes',
-      desc: `Elaboration et suivi budgétaire, pilotage et analyse du résultat, élaboration du compte de résultat et bilan aux mormes IFRS`,
+      // desc: `Elaboration et suivi budgétaire, pilotage et analyse du résultat, élaboration du compte de résultat et bilan aux mormes IFRS`,
     },
     {
       title: 'Contrôleur de gestion 07/2012 - 07/2019',
       sub: 'Alphabet (BMW group), Rueil-Malmaison',
-      desc: `Budget et forecast, risque sur la valeur résiduelle, marge opérationnelle assurance et contract management, suivi de la flotte de la profitabilité`,
+      // desc: `Budget et forecast, risque sur la valeur résiduelle, marge opérationnelle assurance et contract management, suivi de la flotte de la profitabilité`,
     },
     {
       title: 'Contrôleur de gestion bancaire 04/2011 - 03/2012',
       sub: 'KBL SWISS Private Banking, Genève Suisse',
-      desc: `Elaboration et suivi budgétaire, pilotage et analyse du résultat`,
+      // desc: `Elaboration et suivi budgétaire, pilotage et analyse du résultat`,
     },
     {
       title: 'Financial account manager 08/2006 - 12/2010',
       sub: 'Société Générale (SGCIB), la  Défense ',
-      desc: `Analyse des frais généraux et présentation des reporting, intégration et gestion des bases de données(Access)`,
+      // desc: `Analyse des frais généraux et présentation des reporting, intégration et gestion des bases de données(Access)`,
     },
   ];
   return (

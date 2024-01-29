@@ -3,6 +3,14 @@ import ContentHook from './ContentHook';
 
 const education = [
   {
+    title: 'Développeur Front-end React 09/2022 - 09/2023',
+    sub: 'OpenClassrooms, Paris titre RNCP niveau 6',
+  },
+  {
+    title: 'Développeur Web Fullstack 07/2021 - 08/2022',
+    sub: 'OpenClassrooms, Paris titre RNCP niveau 5',
+  },
+  {
     title: 'Gestion Entreprise, Master 2 09/2003 - 05/2006',
     sub: 'Reims Management School, Reims',
   },

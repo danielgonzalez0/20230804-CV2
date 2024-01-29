@@ -69,3 +69,33 @@
     }
   }
 }
+
+.icons-container, .links-container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+
+  li, a {
+    display: inline;
+        font-size: $h7-font-size;
+        font-weight: 500;
+        padding: 2px 5px;
+        background: $grey2;
+        color: $white2;
+        border-radius: 5px;
+  }
+}
+
+.links-container {
+  position: absolute;
+  top: 0;
+  right: 10px;
+ a, li{
+  background-color: $yellow;
+  color: $black2;
+  font-size: $h6-font-size;
+  font-weight: 700;
+ }
+ 
+}

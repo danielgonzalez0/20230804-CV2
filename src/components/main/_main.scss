@@ -1,12 +1,13 @@
 .education,
 .certification,
-.experience {
+.experience, .projets {
   display: grid;
   grid-template-columns: 25% 75%;
   background: $white1;
   .education-left,
   .certification-left,
-  .experience-left {
+  .experience-left, 
+  .projets-left{
     margin-right: 30px;
     p {
       height: 100%;
@@ -24,15 +25,15 @@
   }
 }
 
-.certification {
+.education {
   background: $white2;
 }
-.certification-left {
+.education-left {
   background: $yellow;
 }
 
 .education-container,
-.certification-container {
+.certification-container, .projets-container {
   position: relative;
   padding-left: 1.5rem;
   margin: 1.05rem 0;
@@ -51,7 +52,7 @@
 .experience-container {
   position: relative;
   padding-left: 1.5rem;
-  margin: 0 0 0 0;
+  margin: 1.05rem 0 0 0;
   &:after {
     position: absolute;
     content: '';
@@ -61,5 +62,22 @@
     left: 8px;
     background: $black2;
     z-index: 1;
+  }
+}
+
+.icons-container{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+
+  li {
+    display: inline;
+        font-size: $h7-font-size;
+        font-weight: 500;
+        padding: 2px 5px;
+        background: $grey2;
+        color: $white2;
+        border-radius: 5px;
   }
 }
