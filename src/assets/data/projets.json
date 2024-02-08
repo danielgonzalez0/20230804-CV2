@@ -2,7 +2,7 @@
   "projets": [
     {
       "title": "Clone Disney plus",
-      "desc": "Application React utilisant des appels API, firebase pour simuler authentification user et faire percister les données.",
+      "desc": "Application React utilisant des appels API, firebase pour simuler authentification user et faire persister les données.",
       "links": [
         "https://github.com/danielgonzalez0/20230812-Disney-plus-test",
         "https://20230812-disney-plus-test.vercel.app/"
