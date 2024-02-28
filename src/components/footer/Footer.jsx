@@ -13,7 +13,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="hover"
           >
-            linkedin.com/in/danielgonzalez1980/
+            Linkedin
           </a>
         </li>
         <li>
@@ -24,7 +24,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="hover"
           >
-            github.com/danielgonzalez0
+            github
           </a>
         </li>
         <li>
@@ -35,7 +35,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="hover"
           >
-            gonzalez-daniel.com
+            portfolio
           </a>
         </li>
       </ul>

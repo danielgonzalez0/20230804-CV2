@@ -1,6 +1,22 @@
 {
   "projets": [
     {
+      "title": "Frontend quiz app",
+      "desc": "Application React pour jouer à des quiz. Front en react, Back apollo-server, graphQL pour gérér les données, github actions pour le CI/CD.",
+      "links": [
+        "https://github.com/danielgonzalez0/20240119-TS-React-frontend-quizz-app",
+        "https://20240119-ts-react-frontend-quizz-app.vercel.app/"
+      ],
+      "icons": [
+        "REACT",
+        "TYPESCRIPT",
+        "GRAPHQL",
+        "APOLLO-SERVER",
+        "CI/CD",
+        "STYLED-COMPONENTS"
+      ]
+    },
+    {
       "title": "Clone Disney plus",
       "desc": "Application React utilisant des appels API, firebase pour simuler authentification user et faire persister les données.",
       "links": [
@@ -18,7 +34,7 @@
     },
     {
       "title": "Dashboard Crypto-monnaies",
-      "desc": "Dashboard React utilisant l'appel API CoinGecko. Possibilité de filtrer, trier et enregistrer vos crypto-monnaies préférées.",
+      "desc": "Dashboard React utilisant l'appel API CoinGecko.",
       "links": [
         "https://github.com/danielgonzalez0/TP4-crypto-watch-dashboard-react",
         "https://tp-4-crypto-watch-dashboard-react.vercel.app/"
@@ -83,3 +99,5 @@
     }
   ]
 }
+
+

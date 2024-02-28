@@ -15,13 +15,13 @@ const education = [
     sub: 'Reims Management School, Reims',
   },
   {
-    title: 'Maîtrise de Science et Gestion, 09/2000 - 05/2002',
+    title: 'DEUG puis Maîtrise de Science et Gestion, 09/1998 - 05/2002',
     sub: 'Université de Versailles St-Quentin, SQY',
   },
-  {
-    title: `DEUG d'Économie et Gestion, 09/1998 - 05/2000`,
-    sub: 'Université de Versailles St-Quentin, SQY',
-  },
+  // {
+  //   title: `DEUG d'Économie et Gestion, 09/1998 - 05/2000`,
+  //   sub: 'Université de Versailles St-Quentin, SQY',
+  // },
 ];
 
 const Education = () => {

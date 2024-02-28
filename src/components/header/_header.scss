@@ -2,7 +2,7 @@ header {
   display: grid;
   grid-template-columns: 25% 1fr;
   padding: 1.5rem 1.5rem 1.5rem 0;
-  margin-bottom: 52px;
+  margin-bottom: 20px;
   background-color: $white1;
 }
 
@@ -25,13 +25,14 @@ header {
 }
 
 .about-container {
-  h3, h4 {
+  h3,
+  h4 {
     padding-bottom: 5px;
   }
-  h3{
+  h3 {
     font-size: $h2-font-size;
   }
-  h4{
+  h4 {
     font-size: $h4-font-size;
   }
   p {
