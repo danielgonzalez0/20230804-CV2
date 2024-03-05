@@ -35,7 +35,7 @@ import equipe from '../../assets/img/soft/team-spirit.png';
 
 const SoftSkills = () => {
   const array = [
-    { name: `Capacité d'apatation`, width: '80%', icon: performance },
+    { name: `Capacité d'adaptation`, width: '80%', icon: performance },
     { name: 'Organisation et Autonomie', width: '85%', icon: autonomie },
     { name: `Esprit d'équipe`, width: '90%', icon: equipe },
     { name: `Capacité d'analyse`, width: '90%', icon: analyse },
