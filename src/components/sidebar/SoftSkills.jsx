@@ -50,7 +50,6 @@ const SoftSkills = () => {
             {' '}
             <img src={skill.icon} alt={skill.name} />
             {skill.name}
-            {/* <StyledSpan $width={skill.width}>{skill.name}</StyledSpan> */}
           </li>
         ))}
       </ul>

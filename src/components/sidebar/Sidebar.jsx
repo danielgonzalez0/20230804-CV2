@@ -16,8 +16,6 @@ const Sidebar = () => {
         />
       </div>
       <div className="user">
-        {/* <h1>Daniel Gonzalez</h1>
-        <h2>Développeur Frontend junior</h2> */}
         <Stack/>
         <SoftSkills/>
         <Langue/>
