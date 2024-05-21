@@ -3,6 +3,10 @@ import ContentHook from './ContentHook';
 
 const education = [
   {
+    title: 'Développeur web en alternance 09/2024 - 09/2025',
+    sub: 'Wild Code School, prépa titre RNCP niveau 6',
+  },
+  {
     title: 'Développeur Front-end React 09/2022 - 09/2023',
     sub: 'OpenClassrooms, Paris titre RNCP niveau 6',
   },
@@ -14,10 +18,10 @@ const education = [
     title: 'Gestion Entreprise, Master 2 09/2003 - 05/2006',
     sub: 'Reims Management School, Reims',
   },
-  {
-    title: 'DEUG puis Maîtrise de Science et Gestion, 09/1998 - 05/2002',
-    sub: 'Université de Versailles St-Quentin, SQY',
-  },
+  // {
+  //   title: 'DEUG puis Maîtrise de Science et Gestion, 09/1998 - 05/2002',
+  //   sub: 'Université de Versailles St-Quentin, SQY',
+  // },
   // {
   //   title: `DEUG d'Économie et Gestion, 09/1998 - 05/2000`,
   //   sub: 'Université de Versailles St-Quentin, SQY',

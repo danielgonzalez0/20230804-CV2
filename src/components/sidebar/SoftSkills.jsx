@@ -48,7 +48,7 @@ const SoftSkills = () => {
         {array.map((skill, index) => (
           <li key={index}>
             {' '}
-            <img src={skill.icon} alt={skill.name} />
+            {/* <img src={skill.icon} alt={skill.name} /> */}
             {skill.name}
           </li>
         ))}

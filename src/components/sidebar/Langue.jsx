@@ -5,9 +5,9 @@ import anglais from '../../assets/img/logo2/gb_flag_great_britain_england_union_
 
 const Langue = () => {
   const array = [
-    { note: 'C2', image: `${france}`, name: 'drapeau de la france' },
-    { note: 'C2', image: `${portugal}`, name: 'drapeau du portugal' },
-    { note: 'B2', image: `${anglais}`, name: 'drapeau du UK' },
+    { note: 'C2',racc: "Français", image: `${france}`, name: 'drapeau de la france' },
+    { note: 'C2',racc:"Portugais", image: `${portugal}`, name: 'drapeau du portugal' },
+    { note: 'B2', racc: "Anglais", image: `${anglais}`, name: 'drapeau du UK' },
   ];
   return (
     <div className="langue">
@@ -15,8 +15,8 @@ const Langue = () => {
       <ul className="langue-container">
         {array.map((langue, index) => (
           <li key={index}>
-            <img src={langue.image} alt={langue.name} />{' '}
-            <span>{langue.note}</span>
+            {/* <img src={langue.image} alt={langue.name} />{' '} */}
+            <span>{`${langue.racc}: ${langue.note}`}</span>
           </li>
         ))}
       </ul>

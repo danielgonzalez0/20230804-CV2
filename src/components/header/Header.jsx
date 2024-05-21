@@ -17,7 +17,8 @@ const Header = () => {
       </div>
       <div className="about-container">
         <h3>Daniel Gonzalez</h3>
-        <h4>Développeur fullstack en recherche d'alternance</h4>
+        <h4>Développeur fullstack</h4>
+        {/* <h4>Développeur fullstack en recherche d'alternance</h4> */}
         <p>{text}</p>
       </div>
     </header>

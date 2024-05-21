@@ -22,7 +22,7 @@ const Contact = () => {
         <p>85 résidence Elysée 2</p>
         <p>78170 La Celle-Saint-Cloud</p>
       </div>
-      <img src={qrcode} alt="linkedin qr code" />
+      {/* <img src={qrcode} alt="linkedin qr code" /> */}
     </div>
   );
 };

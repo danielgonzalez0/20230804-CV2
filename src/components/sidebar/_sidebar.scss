@@ -1,3 +1,8 @@
+.img-container{
+  min-width: 238px;
+  min-height: 250px;
+}
+
 .user {
   padding: 1.2rem;
   color: $white2;
@@ -65,9 +70,9 @@
 //langues
 //stack part
 .langue {
-  padding: 20px 0 10px;
+  padding: 2px 0 10px;
   h3 {
-    padding-bottom: 16px;
+    padding-bottom: 1px;
   }
   img {
     filter: none;
@@ -77,21 +82,24 @@
   ul {
     padding: 1rem 0 0;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
-    gap: 15px;
+    gap: 5px;
   }
   li {
     display: flex;
+    width: 100%;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-end;
     span {
-      font-size: $h6-font-size;
+      // font-size: $h5-font-size;
+      
       font-weight: 500;
-      text-align: center;
-      padding: 5px 0 0;
+      // text-align: center;
+      padding: 4px 0 0;
     }
   }
 }
