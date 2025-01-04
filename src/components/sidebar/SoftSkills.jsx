@@ -43,7 +43,7 @@ const SoftSkills = () => {
   ];
   return (
     <div className="softSkills">
-      <h3>Soft skills</h3>
+      <h3>Compétences comportementales</h3>
       <ul>
         {array.map((skill, index) => (
           <li key={index}>

@@ -14,18 +14,18 @@ const Stack = () => {
   const array = [
     { name: 'HTML', image: `${html}` },
     { name: 'CSS', image: `${css}` },
-    { name: 'JS', image: `${js}` },
+    { name: 'JAVASCRIPT', image: `${js}` },
     { name: 'REACT', image: `${react}` },
     { name: 'REDUX', image: `${redux}` },
     { name: 'SASS', image: `${sass}` },
     { name: 'firebase', image: `${firebase}` },
-    { name: 'TS', image: `${ts}` },
+    { name: 'TYPESCRIPT', image: `${ts}` },
     { name: 'mongo', image: `${mongoDB}` },
     { name: 'mySQL', image: `${MySQL}` },
   ];
   return (
     <div className="stack">
-      <h3>Compétences techniques</h3>
+      <h3>Compétences informatiques</h3>
       <ul className="stack-container">
         {array.map((stack, index) => {
           return (

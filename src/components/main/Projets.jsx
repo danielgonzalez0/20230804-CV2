@@ -11,7 +11,7 @@ const Projets = () => {
     <div className='projets'>
       <div className="projets-left">
         <p>
-          <span>PROJETS</span>
+          <span>PROJETS INFORMATIQUES</span>
         </p>
       </div>
       <div className="projets-container">

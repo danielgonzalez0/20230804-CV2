@@ -5,9 +5,9 @@ import anglais from '../../assets/img/logo2/gb_flag_great_britain_england_union_
 
 const Langue = () => {
   const array = [
-    { note: 'C2',racc: "Français", image: `${france}`, name: 'drapeau de la france' },
-    { note: 'C2',racc:"Portugais", image: `${portugal}`, name: 'drapeau du portugal' },
-    { note: 'B2', racc: "Anglais", image: `${anglais}`, name: 'drapeau du UK' },
+    { note: 'Bilingue',racc: "Français", image: `${france}`, name: 'drapeau de la france' },
+    { note: 'Courant',racc:"Portugais", image: `${portugal}`, name: 'drapeau du portugal' },
+    { note: 'Technique', racc: "Anglais", image: `${anglais}`, name: 'drapeau du UK' },
   ];
   return (
     <div className="langue">

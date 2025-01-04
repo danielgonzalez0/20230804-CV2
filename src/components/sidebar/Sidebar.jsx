@@ -1,5 +1,5 @@
 import React from 'react';
-import userImg from '../../assets/img/daniel.jpg';
+import userImg from '../../assets/img/daniel_small.jpg';
 import Stack from './Stack';
 import SoftSkills from './SoftSkills';
 import Langue from './Langue';
@@ -12,7 +12,7 @@ const Sidebar = () => {
         <img
           src={userImg}
           alt="portrait de profil"
-          style={{ maxWidth: '100%', height: 'auto', width: 'auto' }}
+          style={{ maxWidth: '100%', height: 'auto', width: 'auto',borderRadius: '50%'}}
         />
       </div>
       <div className="user">
