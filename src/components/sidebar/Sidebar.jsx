@@ -1,8 +1,5 @@
 import React from 'react';
-import userImg from '../../assets/img/daniel_small.jpg';
-import Stack from './Stack';
-import SoftSkills from './SoftSkills';
-import Langue from './Langue';
+import userImg from '../../assets/img/daniel.jpg';
 import Contact from './Contact';
 
 const Sidebar = () => {
@@ -15,12 +12,10 @@ const Sidebar = () => {
           style={{ maxWidth: '100%', height: 'auto', width: 'auto',borderRadius: '50%'}}
         />
       </div>
+      <h1>JULIE RUAULT</h1>
       <div className="user">
-        <Stack/>
-        <SoftSkills/>
-        <Langue/>
-      </div>
         <Contact/>
+      </div>
     </>
   );
 };

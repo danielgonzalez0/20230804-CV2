@@ -1,140 +1,58 @@
-.img-container{
-  min-width: 238px;
-  min-height: 209px;
+.img-container {
+  max-width: 250px;
+  max-height: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 10px auto;
 }
 
+h1 {
+  font-size: $h1-font-size;
+  margin: 10px 0 20px;
+}
 .user {
-  padding: 1.2rem;
+  width: 100%;
+  padding: 1.2rem 0;
   color: $white2;
-  h1 {
-    font-size: $h3-font-size;
-  }
   h2 {
     font-size: $h5-font-size;
   }
-}
-
-//stack part
-.stack {
-  padding: 0 0 10px;
   h3 {
-    padding-bottom: 16px;
+    font-size: $h3-font-size;
+    font-weight: 900;
+    margin-bottom: 10px;
   }
-  img {
-    filter: none;
-    width: 25px;
-    height: 25px;
-  }
-  ul {
-    padding: 1rem 0;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-  }
-  li {
-    display: flex;
-    flex-direction: column;
-    flex: 0 1 20%;
-    align-items: center;
-    justify-content: center;
-
-    span {
-      font-size: $h6-font-size;
-      font-weight: 500;
-      text-align: center;
-      padding: 5px 0 10px;
-    }
-  }
-}
-
-//softSkills
-.softSkills {
-  ul {
-    padding: 1.5rem 0;
-  }
-  li {
-    height: 29px;
-    display: flex;
-    align-items: center;
-
-    img {
-      width: 20px;
-      height: 20px;
-      background: $white2;
-      margin-right: 5px;
-    }
-  }
-}
-
-//langues
-//stack part
-.langue {
-  padding: 2px 0 10px;
-  h3 {
-    padding-bottom: 1px;
-  }
-  img {
-    filter: none;
-    width: 25px;
-    height: 25px;
-  }
-  ul {
-    padding: 1rem 0 0;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 5px;
-  }
-  li {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-end;
-    span {
-      // font-size: $h5-font-size;
-      
-      font-weight: 500;
-      // text-align: center;
-      padding: 4px 0 0;
-    }
+  .text{
+    font-size: $h5-font-size;
+    margin-bottom: 15px;
   }
 }
 
 //contact
 .contact {
-  height: 252px;
+  width: 100%;
+  min-height: 710px;
   padding: 1.5rem;
-  background: $yellow;
-  color: $black2;
+  background: $color-primary;
   position: relative;
-  font-size: $h6-font-size;
+  font-size: $h5-font-size;
+  color: $grey2;
 
-  p {
-    color: $black3;
-    font-weight: 400;
-  }
 
   .container {
-    margin: 5px 0;
+    display: flex;
+    gap: 5px;
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
   }
   img {
-    position: absolute;
-    bottom: 15px;
-    right: 15px;
-    width: 50px;
-    height: 52px;
-  }
-
-  .adresse-container {
-    position: absolute;
-    bottom: 30px;
-    font-size: $h6-font-size;
+    width: 35px;
+    height: 35px;
+    padding: 5px;
   }
 }

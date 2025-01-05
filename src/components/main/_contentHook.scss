@@ -12,7 +12,7 @@
     width: 18px;
     height: 18px;
     border-radius: 15px;
-    background: $yellow;
+    background: $color-primary;
     z-index: 2;
   }
   &:before {
@@ -92,7 +92,7 @@
   top: 0;
   right: 10px;
  a, li{
-  background-color: $yellow;
+  background-color: $color-primary;
   color: $black2;
   font-size: $h6-font-size;
   font-weight: 700;

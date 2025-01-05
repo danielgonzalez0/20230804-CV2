@@ -1,12 +1,11 @@
 import React, { useRef, useState } from 'react';
 import html2canvas from 'html2canvas';
 import jsPDF from 'jspdf';
-import Header from './components/header/Header';
 import Sidebar from './components/sidebar/Sidebar';
 import Education from './components/main/Education';
 import Experience from './components/main/Experience';
-import Footer from './components/footer/Footer';
-import Projets from './components/main/Projets';
+import Hobbies from './components/main/Hobbies';
+
 
 const App = () => {
   const pdfRef = useRef(null);
@@ -53,16 +52,16 @@ const App = () => {
         Print
       </button>
       <div className="app" ref={pdfRef}>
-        <div className="sidebar">
-          <Sidebar />
-        </div>
-        <div className="main">
-          <Header />
-          <Footer />
-          <div className="main-container">
-           <Projets/>
-            <Education />
-            <Experience />
+        <div className="app-wrapper">
+          <div className="sidebar">
+            <Sidebar />
+          </div>
+          <div className="main">
+            <div className="main-container">
+              <Experience />
+              <Education />
+              <Hobbies />
+            </div>
           </div>
         </div>
       </div>

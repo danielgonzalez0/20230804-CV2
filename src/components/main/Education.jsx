@@ -1,42 +1,48 @@
 import React from 'react';
-import ContentHook from './ContentHook';
+import Title from '../title/Title';
+import iconsrc from '../../assets/img/julie/innovationBBG.png';
 
-const education = [
+const experience = [
   {
-    title: 'Développeur web en alternance 09/2024 - 09/2025',
-    sub: 'Wild Code School, prépa titre RNCP niveau 6',
+    id: "par-1",
+    title: "Université de Rennes 1",
+    sub: `Master Économie et Gestion des Entreprises | 2008 - 2010`,
+  }
+  ,
+  {
+    id: "par-2",
+    title: "Université de Rennes 1",
+    sub: `Licence AES | 2005 - 2008`,
   },
   {
-    title: 'Développeur Front-end React 09/2022 - 09/2023',
-    sub: 'OpenClassrooms, Paris titre RNCP niveau 6',
+    id: "par-3",
+    title: "Programmes d ́échange",
+    desc: [`Université de Guadalajara, Mexique | 2009 - 2010`,
+      `Université d’Aristotle, Grèce | 2007 - 2008`
+    ],
   },
-  {
-    title: 'Développeur Web Fullstack 07/2021 - 08/2022',
-    sub: 'OpenClassrooms, Paris titre RNCP niveau 5',
-  },
-  {
-    title: 'Gestion Entreprise, Master 2 09/2003 - 05/2006',
-    sub: 'Reims Management School, Reims',
-  },
-  // {
-  //   title: 'DEUG puis Maîtrise de Science et Gestion, 09/1998 - 05/2002',
-  //   sub: 'Université de Versailles St-Quentin, SQY',
-  // },
-  // {
-  //   title: `DEUG d'Économie et Gestion, 09/1998 - 05/2000`,
-  //   sub: 'Université de Versailles St-Quentin, SQY',
-  // },
+
 ];
 
 const Education = () => {
+
   return (
     <div className="education">
-        <div className="education-left">
-            <p><span>FORMATION</span></p>
-        </div>
+      <Title title="parcours universitaire" iconSrc={iconsrc} />
       <div className="education-container">
-        {education.map((degree, index) => (
-          <ContentHook key={index} title={degree.title} subtitle={degree.sub} />
+        {experience.map((work) => (
+          <>
+            <div className="education-title" key={work.id}>
+              <h3>{work.title}</h3>
+              {work.sub && <span>{work.sub}</span>}
+            <ul>
+              {work.desc && work.desc.map((item, index) => (
+                <li key={`educ${index}`}>- {item}</li>
+              ))}
+            </ul>
+            </div>
+          </>
+
         ))}
       </div>
     </div>

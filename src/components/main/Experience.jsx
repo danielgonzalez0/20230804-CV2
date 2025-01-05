@@ -1,44 +1,47 @@
 import React from 'react';
-import ContentHook from './ContentHook';
+import Title from '../title/Title';
+import iconsrc from '../../assets/img/julie/valiseBBG.png';
 
 const Experience = () => {
   const experience = [
     {
-      title: 'Contrôleur de gestion retail 07/2019 - 04/2021',
-      sub: 'FCA Capital France, Trappes',
-      // desc: `Elaboration et suivi budgétaire, pilotage et analyse du résultat, élaboration du compte de résultat et bilan aux mormes IFRS`,
+      id: "exp-1",
+      title: "Chargée d'études financement réseaux BMW FINANCE",
+      sub: 'depuis Novembre 2019',
+      desc: [`Gestion de la relation avec le réseau de concessionnaires`, `Préparation des revues de crédit et présentation des analyses en comité`, `Évaluation et dimensionnement des besoins de financement du réseau de concessionnaires`]
+    }
+    ,
+    {
+      id: "exp-2",
+      title: "Analyste crédit financement réseaux BMW FINANCE",
+      sub: 'Février 2017 - Octobre 2019 ',
+      desc: [`Etude des demandes de financement Wholesale pour le réseau de concessionnaires`, `Recommandation motivée et structurée en respectant la réglementation bancaire`, `Contribution à l’évolution des méthodes et procédures de suivi et de mesure des risques`]
     },
     {
-      title: 'Contrôleur de gestion 07/2012 - 07/2019',
-      sub: 'Alphabet (BMW group), Rueil-Malmaison',
-      // desc: `Budget et forecast, risque sur la valeur résiduelle, marge opérationnelle assurance et contract management, suivi de la flotte de la profitabilité`,
+      id: "exp-3",
+      title: "ALPHABET FRANCE",
+      sub: 'Mai 2011 - Janvier 2017',
+      desc: [`Analyste Crédit`, `Analyste Pricing`]
     },
-    {
-      title: 'Contrôleur de gestion bancaire 04/2011 - 03/2012',
-      sub: 'KBL SWISS Private Banking, Genève Suisse',
-      // desc: `Elaboration et suivi budgétaire, pilotage et analyse du résultat`,
-    },
-    {
-      title: 'Financial account manager 08/2006 - 12/2010',
-      sub: 'Société Générale (SGCIB), la  Défense ',
-      // desc: `Analyse des frais généraux et présentation des reporting, intégration et gestion des bases de données(Access)`,
-    },
+
   ];
   return (
     <div className="experience">
-      <div className="experience-left">
-        <p>
-          <span>EXPERIENCE</span>
-        </p>
-      </div>
+      <Title title="Expérience professionnelle" iconSrc={iconsrc} />
       <div className="experience-container">
-        {experience.map((work, index) => (
-          <ContentHook
-            key={index}
-            title={work.title}
-            subtitle={work.sub}
-            desc={work.desc}
-          />
+        {experience.map((work) => (
+          <>
+            <div className="experience-title" key={work.id}>
+              <h3>{work.title} </h3>
+              <span>{work.sub}</span>
+            </div>
+            <ul>
+              {work.desc.map((item, index) => (
+                <li key={`${work.id}${index}`}>- {item}</li>
+              ))}
+            </ul>
+          </>
+
         ))}
       </div>
     </div>

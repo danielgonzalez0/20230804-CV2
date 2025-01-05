@@ -1,26 +1,49 @@
 import React from 'react';
-import qrcode from '../../assets/img/logo2/qr-code-portfolio.png';
+import telsrc from '../../assets/img/julie/telephoneB.png';
+import mailsrc from '../../assets/img/julie/emailB.png';
+import adressesrc from '../../assets/img/julie/adresseB.png';
+
+const profil = [{
+  id: "profil-1", text: `Une belle opportunité professionnelle s'offre à moi et je compte bien la saisir!`},
+  {id: "profil-2", text: `Je me sens aujourd'hui suffisamment mature pour assumer un nouveau rôle au sein du groupe BMW. Mes succès personnels et professionnels me motivent également à agrandir monpérimètre de responsabilités.`},
+  { id: "profil-3", text: `Avec mon équipe, je souhaite contribuerà la transformation de l'entreprise etaccompagner chacun dans lechangement.` }
+];
+const softskills = [{
+  id: "soft-1", text: `Je juge l’importance des différents sujetset les priorise`},
+  {
+    id: "soft-2", text: `Je maîtrise la charge de travail pour délivrer dans les délais impartis`},
+  { id: "soft-3", text: `J'apporte des solutions` },
+  { id: "soft-4", text: `Je joue collectif` }
+];
+
+
 
 const Contact = () => {
   return (
     <div className="contact">
-      <h3>DONNÉES PERSONNELLES</h3>
+      <h3>PROFIL</h3>
+      {profil.map((item) => (<p key={item.id} className='text'>{item.text}</p>))}
+      <h3>SOFT SKILLS</h3>
+      {softskills.map((item) => (<p key={item.id} className='text'>{item.text}</p>))}
+      <h3>CONTACTEZ-MOI</h3>
       <div className="container">
-        <h4>TEL</h4>
-        <p>+33 6 60 29 91 14</p>
+        <img src={adressesrc} alt="adresse" />
+        <div className="wrapper">
+          <p>85 résidence Elysée 2</p>
+          <p>78170 La Celle-Saint-Cloud</p>
+        </div>
       </div>
       <div className="container">
-        <h4>EMAIL</h4>
-        <p>daniel.gonzalez.02@gmail.com</p>
+        <img src={mailsrc} alt="email" />
+        <div className="wrapper">
+          <p>julie_hotmail.fr</p>
+        </div>
       </div>
       <div className="container">
-        <h4>PORTFOLIO</h4>
-        <p>gonzalez-daniel.com</p>
-      </div>
-      <div className="adresse-container">
-        <h4>ADRESSE</h4>
-        <p>85 résidence Elysée 2</p>
-        <p>78170 La Celle-Saint-Cloud</p>
+        <img src={telsrc} alt="tel" />
+        <div className="wrapper">
+          <p>06 68 54 62 58</p>
+        </div>
       </div>
       {/* <img src={qrcode} alt="linkedin qr code" /> */}
     </div>
