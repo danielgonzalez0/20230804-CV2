@@ -3,46 +3,117 @@ import Title from '../title/Title';
 import iconsrc from '../../assets/img/julie/valiseBBG.png';
 
 const Experience = () => {
-  const experience = [
-    {
-      id: "exp-1",
-      title: "Chargée d'études financement réseaux BMW FINANCE",
-      sub: 'depuis Novembre 2019',
-      desc: [`Gestion de la relation avec le réseau de concessionnaires`, `Préparation des revues de crédit et présentation des analyses en comité`, `Évaluation et dimensionnement des besoins de financement du réseau de concessionnaires`]
-    }
-    ,
-    {
-      id: "exp-2",
-      title: "Analyste crédit financement réseaux BMW FINANCE",
-      sub: 'Février 2017 - Octobre 2019 ',
-      desc: [`Etude des demandes de financement Wholesale pour le réseau de concessionnaires`, `Recommandation motivée et structurée en respectant la réglementation bancaire`, `Contribution à l’évolution des méthodes et procédures de suivi et de mesure des risques`]
-    },
-    {
-      id: "exp-3",
-      title: "ALPHABET FRANCE",
-      sub: 'Mai 2011 - Janvier 2017',
-      desc: [`Analyste Crédit`, `Analyste Pricing`]
-    },
+  const experience = [{
+    entreprise: "BMW Finance",
+    jobs: [
+      {
+        id: "exp-1",
+        title: "Responsable Financement & Relation Réseau",
+        sub: '10/2022 - 2025',
+        desc: [{
+          id: "desc-1",
+          descTitle: "Accompagnement du réseau :",
+          descSub: [
+            "Conseils et support quotidien auprès des concessionnaires relatifs au financement de leurs stocks",
+            "Promotion des solutions de financement avec une approche axée sur leurs besoins spécifiques",
+            "Formation des nouveaux membres du réseau(utilisation des outils, compréhension des plans de financement et de la tarification)"
+          ]
+        },
+        {
+          id: "desc-2",
+          descTitle: "Pilotage des conditions de financement :",
+          descSub: [
+            "Élaboration et suivi des taux appliqués aux concessionnaires, garantissant l’atteinte des objectifs de marge tout en maintenant une position concurrentielle.",
 
-  ];
+          ]
+        },
+        {
+          id: "desc-3",
+          descTitle: "Collaboration transverse avec différentes équipes :",
+          descSub: [
+            "Contrôle de gestion (tarification réseau)",
+            "Analystes crédit(gestion des dossiers de crédit, comités crédit)",
+            "Équipes terrain(visites communes en concession et partage d’informations)",
+            "Équipes BMW France."
+          ]
+        },
+        {
+          id: "desc-4",
+          descTitle: "Encadrement d’une équipe :",
+          descSub: [
+            "Pilotage des activités opérationnelles et accompagnement individuel pour développer les compétences de chacun.",
+          ]
+        },
+        ],
+      },
+      {
+        id: "exp-2",
+        title: "Chargée d'études financement réseaux",
+        sub: '11/2019 - 09/2022',
+      }
+      ,
+      {
+        id: "exp-3",
+        title: "Analyste crédit financement réseaux",
+        sub: '02/2017 - 10/2019 ',
+      },
+    ],
+  }, // end bmw
+  {
+    entreprise: "Alphabet France",
+    jobs: [
+      {
+        id: "exp-4",
+        title: "Analyste Crédit",
+        sub: '04/2012 - 01/2017',
+      },
+      {
+        id: "exp-5",
+        title: "Analyste Pricing",
+        sub: '05/2011 - 03/2012',
+      },
+    ]
+  }]
+
+
   return (
     <div className="experience">
       <Title title="Expérience professionnelle" iconSrc={iconsrc} />
       <div className="experience-container">
-        {experience.map((work) => (
-          <>
-            <div className="experience-title" key={work.id}>
-              <h3>{work.title} </h3>
-              <span>{work.sub}</span>
-            </div>
-            <ul>
-              {work.desc.map((item, index) => (
-                <li key={`${work.id}${index}`}>- {item}</li>
-              ))}
-            </ul>
-          </>
 
+        {experience.map((entreprise, index) => (
+          <>
+            <div className="experience-title" key={index}>
+              <h3>{entreprise.entreprise} </h3>
+            </div>
+
+            <div className='job-container'>
+              {entreprise.jobs.map((job) => (
+                <>
+                  <div>
+                    <div className="experience-job-title" key={job.id}>{job.title}  <span>{job.sub}</span></div>  
+                  </div>
+
+                  {job.desc ? job.desc.map((item, index) => (
+                    <ul key={`${item.id}${index}`}>
+                      <p>{item.descTitle}</p>
+                      {item.descSub.map((item, index) => (
+                        <li key={`${item.id}${index}`}>- {item}</li>
+                      ))}
+                    </ul>
+                  )) : null}
+
+
+                </>
+              ))}
+            </div>
+          </>
         ))}
+
+
+
+
+ 
       </div>
     </div>
   );

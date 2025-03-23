@@ -5,15 +5,9 @@ import Title from '../title/Title';
 const hobbies = [
   {
     id: "hob-1",
-    title: "sport",
-    desc: [`Pratique du Muay-Thaï, une vraie bouffée d'oxygène 3 fois par semaine. Ce sport de combat demande de la rigueur et de
-l'autodiscipline.`],
+    title: "",
+    desc: [`Depuis 2022, je cultive l’autodiscipline, la détermination et la gestion du stress avec la pratique de la course à pied et du trail. Des qualités qui nourrissent également mon quotidien professionnel. J’accroche quelques dossards dans l’année en me fixant des objectifs atteignables et progressifs, le plaisir doit rester l’essentiel.`],
   },
-  {
-    id: "hob-2",
-    title: "objectif",
-    desc: [`Objectif personnel 2022: Progresser en course à pied (endurance et vitesse). Cette discipline n'est clairement pas mon sport de prédilection. Le challenge va être d'autant plus important mais le succès d'autant plus savouré.`, `Je me fixe des objectifs atteignables, progressifs : Une 1ère course en Juin, la course Royale au château de Versailles (15KM). Un semi en Septembre.`],
-  }
 ];
 
 const Hobbies = () => {

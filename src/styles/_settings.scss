@@ -80,16 +80,17 @@ a:visited {
   display: flex;
   position: relative;
   .app-wrapper {
-    padding: 20px;
+    padding:  10px 20px;
     width: 100%;
     background: $white1;
     display: flex;
+    gap: 10px;
     .main {
-      width: 55%;
+      width: 65%;
       background-color: $white1;
     }
     .sidebar {
-      width: 45%;
+      width: 35%;
       display: flex;
       flex-direction: column;
       align-items: center;

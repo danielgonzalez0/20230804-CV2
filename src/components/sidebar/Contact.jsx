@@ -4,9 +4,8 @@ import mailsrc from '../../assets/img/julie/emailB.png';
 import adressesrc from '../../assets/img/julie/adresseB.png';
 
 const profil = [{
-  id: "profil-1", text: `Une belle opportunité professionnelle s'offre à moi et je compte bien la saisir!`},
-  {id: "profil-2", text: `Je me sens aujourd'hui suffisamment mature pour assumer un nouveau rôle au sein du groupe BMW. Mes succès personnels et professionnels me motivent également à agrandir monpérimètre de responsabilités.`},
-  { id: "profil-3", text: `Avec mon équipe, je souhaite contribuerà la transformation de l'entreprise etaccompagner chacun dans lechangement.` }
+  id: "profil-1", text: `Experte en financement, j'accompagne quotidiennement les concessionnaires dans la gestion et l’optimisation de leurs financements de stock tout en assurant la compétitivité et la rentabilité des produits de financement proposées.`},
+  { id: "profil-2", text: `Je souhaite aborder l’année 2025 en explorant de nouveaux horizons et pourquoi pas en me réinventant dans un nouveau domaine.`},
 ];
 const softskills = [{
   id: "soft-1", text: `Je juge l’importance des différents sujetset les priorise`},

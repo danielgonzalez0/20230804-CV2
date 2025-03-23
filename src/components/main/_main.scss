@@ -1,10 +1,10 @@
-.main{
-  padding: 20px;
-  padding-top: 40px;
+.main {
+  padding: 10px;
+  padding-top: 10px;
 }
 
 .experience-container,
-.education-container, 
+.education-container,
 .hobbies-container {
   margin-bottom: 20px;
   h3 {
@@ -20,15 +20,47 @@
 }
 
 .experience-title,
-.education-title, .hobbies-title {
-  margin: 10px 0;
+.education-title,
+.hobbies-title {
+  margin: 5px 0;
+}
+
+.experience-title{
+  color: white;
+  background-color: $color-secondary;
+  padding: 0 10px;
+}
+
+.experience-job-title {
+  font-size: $h4-font-size;
+  font-weight: bold;
+}
+
+.job-container {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  span {
+    font-size: $h5-font-size;
+    font-weight: 100;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    p {
+      font-weight: bold;
+    }
+  }
 }
 
 .education-container {
   h3 {
     display: block;
   }
-  li, span{
+  li,
+  span {
     font-size: $h5-font-size;
   }
 }

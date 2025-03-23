@@ -6,14 +6,11 @@ const experience = [
   {
     id: "par-1",
     title: "Université de Rennes 1",
-    sub: `Master Économie et Gestion des Entreprises | 2008 - 2010`,
+    desc: [`Master Économie et Gestion des Entreprises | 2008 - 2010`,
+      `Licence AES | 2005 - 2008`
+    ],
   }
   ,
-  {
-    id: "par-2",
-    title: "Université de Rennes 1",
-    sub: `Licence AES | 2005 - 2008`,
-  },
   {
     id: "par-3",
     title: "Programmes d ́échange",
