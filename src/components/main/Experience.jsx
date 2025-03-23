@@ -4,19 +4,19 @@ import iconsrc from '../../assets/img/julie/valiseBBG.png';
 
 const Experience = () => {
   const experience = [{
-    entreprise: "BMW Finance",
+    entreprise: "BMW Finance (groupe BMW France)",
     jobs: [
       {
         id: "exp-1",
         title: "Responsable Financement & Relation Réseau",
-        sub: '10/2022 - 2025',
+        sub: 'depuis 10/2022',
         desc: [{
           id: "desc-1",
           descTitle: "Accompagnement du réseau :",
           descSub: [
-            "Conseils et support quotidien auprès des concessionnaires relatifs au financement de leurs stocks",
-            "Promotion des solutions de financement avec une approche axée sur leurs besoins spécifiques",
-            "Formation des nouveaux membres du réseau(utilisation des outils, compréhension des plans de financement et de la tarification)"
+            "Conseils et support quotidien auprès des concessionnaires sur le financement de leurs stocks",
+            "Mise en avant des solutions de financement adaptées aux besoins spécifiques des concessionnaires",
+            "Formation des nouveaux membres du réseau (utilisation des outils, compréhension des plans de financement et de la tarification)"
           ]
         },
         {
@@ -32,8 +32,8 @@ const Experience = () => {
           descTitle: "Collaboration transverse avec différentes équipes :",
           descSub: [
             "Contrôle de gestion (tarification réseau)",
-            "Analystes crédit(gestion des dossiers de crédit, comités crédit)",
-            "Équipes terrain(visites communes en concession et partage d’informations)",
+            "Analystes crédit (gestion des dossiers de crédit, comités crédit)",
+            "Équipes terrain (visites communes en concession et partage d’informations)",
             "Équipes BMW France."
           ]
         },
@@ -60,7 +60,7 @@ const Experience = () => {
     ],
   }, // end bmw
   {
-    entreprise: "Alphabet France",
+    entreprise: "Alphabet France (groupe BMW France)",
     jobs: [
       {
         id: "exp-4",

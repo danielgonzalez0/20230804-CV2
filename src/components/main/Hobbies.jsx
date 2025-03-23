@@ -13,7 +13,7 @@ const hobbies = [
 const Hobbies = () => {
   return (
     <div className="hobbies">
-      <Title title="en dehors de l'hélice" iconSrc={iconsrc} />
+      <Title title="en dehors du travail" iconSrc={iconsrc} />
       <div className="hobbies-container">
         {hobbies.map((hobby) => (
           <>

@@ -4,11 +4,11 @@ import mailsrc from '../../assets/img/julie/emailB.png';
 import adressesrc from '../../assets/img/julie/adresseB.png';
 
 const profil = [{
-  id: "profil-1", text: `Experte en financement, j'accompagne quotidiennement les concessionnaires dans la gestion et l’optimisation de leurs financements de stock tout en assurant la compétitivité et la rentabilité des produits de financement proposées.`},
-  { id: "profil-2", text: `Je souhaite aborder l’année 2025 en explorant de nouveaux horizons et pourquoi pas en me réinventant dans un nouveau domaine.`},
+  id: "profil-1", text: `Experte en financement, j'accompagne quotidiennement les concessionnaires dans la gestion et l’optimisation de leurs financements de stock tout en assurant la compétitivité et la rentabilité des produits de financement proposés.`},
+  { id: "profil-2", text: `Je souhaite aborder l’année 2025 en explorant de nouveaux horizons et en me réinventant dans un nouveau domaine.`},
 ];
 const softskills = [{
-  id: "soft-1", text: `Je juge l’importance des différents sujetset les priorise`},
+  id: "soft-1", text: `Je juge l’importance des différents sujets et les priorise`},
   {
     id: "soft-2", text: `Je maîtrise la charge de travail pour délivrer dans les délais impartis`},
   { id: "soft-3", text: `J'apporte des solutions` },
