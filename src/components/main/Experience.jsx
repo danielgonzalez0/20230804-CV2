@@ -4,6 +4,11 @@ import ContentHook from './ContentHook';
 const Experience = () => {
   const experience = [
     {
+      title: 'Alternant développeur Frontend – Design System / composants réutilisables',
+      sub: 'Société Générale, VDF 09/2024 - 11/2025',
+      // desc: `Développpeur front-end React dans l'équipe Design System`,
+    },
+    {
       title: 'Contrôleur de gestion retail 07/2019 - 04/2021',
       sub: 'FCA Capital France, Trappes',
       // desc: `Elaboration et suivi budgétaire, pilotage et analyse du résultat, élaboration du compte de résultat et bilan aux mormes IFRS`,

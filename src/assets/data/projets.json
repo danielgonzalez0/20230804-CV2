@@ -18,7 +18,7 @@
     },
     {
       "title": "Clone Disney plus",
-      "desc": "Application React utilisant des appels API, firebase pour simuler authentification user et faire persister les données.",
+      "desc": "Simulation d’une app de streaming : auth Firebase, persistance des données, appels API, player intégré, routing avancé, state global.",
       "links": [
         "https://github.com/danielgonzalez0/20230812-Disney-plus-test",
         "https://20230812-disney-plus-test.vercel.app/"
@@ -39,14 +39,7 @@
         "https://github.com/danielgonzalez0/TP4-crypto-watch-dashboard-react",
         "https://tp-4-crypto-watch-dashboard-react.vercel.app/"
       ],
-      "icons": [
-        "REACT",
-        "REDUX",
-        "RECHARTS",
-        "AXIOS",
-        "SASS",
-        "API COINGECKO"
-      ]
+      "icons": ["REACT", "REDUX", "RECHARTS", "AXIOS", "SASS", "API COINGECKO"]
     },
     {
       "title": "Portail RH - HRnet",
@@ -65,6 +58,17 @@
       ]
     },
     {
+      "title": "GROUPOMANIA: Réseau social d'entreprise",
+      "desc": "Création d'un réseau social d'entreprise en React pour le front, Node.js pour le back et MySQL pour la base de données",
+      "links": [
+        "https://github.com/danielgonzalez0/DanielGonzalez_7_28042022",
+        "https://www.youtube.com/watch?v=ATJyLR6_BIg"
+      ],
+      "icons": ["REACT", "REDUX", "EXPRESS", "NODE.JS", "MYSQL", "SASS"]
+    }
+  ],
+  "backup": [
+    {
       "title": "Kasa - site de location de logements",
       "desc": "Refonte site vitrine en React pour la partie front-end",
       "links": [
@@ -79,25 +83,6 @@
         "ACCESSIBILITE",
         "ESLINT"
       ]
-    },
-    {
-      "title": "GROUPOMANIA: Réseau social d'entreprise",
-      "desc": "Création d'un réseau social d'entreprise en React pour le front, Node.js pour le back et MySQL pour la base de données",
-      "links": [
-        "https://github.com/danielgonzalez0/DanielGonzalez_7_28042022",
-        "https://www.youtube.com/watch?v=ATJyLR6_BIg"
-      ],
-      "icons": [
-        "REACT",
-        "REDUX",
-        "EXPRESS",
-        "NODE.JS",
-        "MYSQL",
-        "SASS"
-      
-      ]
     }
   ]
 }
-
-
