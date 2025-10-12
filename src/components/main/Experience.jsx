@@ -4,7 +4,7 @@ import ContentHook from './ContentHook';
 const Experience = () => {
   const experience = [
     {
-      title: 'Alternant développeur Frontend – Design System / composants réutilisables',
+      title: 'Alternant développeur Frontend – Design System',
       sub: 'Société Générale, VDF 09/2024 - 11/2025',
       // desc: `Développpeur front-end React dans l'équipe Design System`,
     },

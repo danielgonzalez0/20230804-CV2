@@ -15,20 +15,22 @@ const Projets = () => {
         </p>
       </div>
       <div className="projets-container">
-        {projets.map((projet, index) => {
-          return (
-            <>
-            <ContentHook
-              key={index}
-              title={projet.title}
-              desc={projet.desc}
-              icons={projet.icons}
-              links={projet.links}
-            />
-        
-            </>
-          );
-        })}
+        {projets
+          .filter((projet) => (projet.title !== "Dashboard Crypto-monnaies"))
+          .map((projet, index) => {
+            return (
+              <>
+                <ContentHook
+                  key={index}
+                  title={projet.title}
+                  desc={projet.desc}
+                  icons={projet.icons}
+                  links={projet.links}
+                />
+
+              </>
+            );
+          })}
       </div>
 
     </div>

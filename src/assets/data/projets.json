@@ -1,7 +1,24 @@
 {
   "projets": [
     {
-      "title": "Frontend quiz app",
+      "title": "Pecunia: app gestion budgétaire",
+      "desc": "Projet fullstack sécurisé – Angular front, Spring Boot back, BDD MySQL. Authentification JWT, rôles, validation forte, architecture en couches, CI/CD, Docker.",
+
+      "links": [
+        "https://github.com/Pecunia-App",
+        "https://pecuniapp.com/"
+      ],
+      "icons": [
+        "ANGULAR",
+        "TYPESCRIPT",
+        "SPRINGBOOT",
+        "MYSQL",
+        "CI/CD",
+        "DOCKER"
+      ]
+    },
+    {
+      "title": "Quiz App React/GraphQL",
       "desc": "Application React pour jouer à des quiz. Front en react, Back apollo-server, graphQL pour gérér les données, github actions pour le CI/CD.",
       "links": [
         "https://github.com/danielgonzalez0/20240119-TS-React-frontend-quizz-app",
@@ -58,7 +75,7 @@
       ]
     },
     {
-      "title": "GROUPOMANIA: Réseau social d'entreprise",
+      "title": "GROUPOMANIA",
       "desc": "Création d'un réseau social d'entreprise en React pour le front, Node.js pour le back et MySQL pour la base de données",
       "links": [
         "https://github.com/danielgonzalez0/DanielGonzalez_7_28042022",
