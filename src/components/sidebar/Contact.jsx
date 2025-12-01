@@ -19,9 +19,13 @@ import mailsrc from '../../assets/img/julie/emailB.png';
 // ];
 
 const profil = [{
-  id: "profil-1", text: `Experte en financement, j'accompagne quotidiennement les concessionnaires dans la gestion et l’optimisation de leurs financements de stock tout en assurant la compétitivité et la rentabilité des produits de financement proposés.`
+  id: "profil-1",
+  titre: "CROIX-ROUGE FRANÇAISE",
+  text: `Formation premiers secours citoyen (PSC)`
 },
-{ id: "profil-2", text: `Je souhaite aborder l’année 2026 en explorant de nouveaux horizons et en me réinventant dans un nouveau domaine.` },
+{ id: "profil-2", 
+  titre: "GROUPE BMW FRANCE",
+  text: `Formation Sauveteur Secouriste du Travail (SST)` },
 ];
 const softskills = [{
   id: "soft-1", text: `- Gestion des priorités`
@@ -38,9 +42,14 @@ const softskills = [{
 const Contact = () => {
   return (
     <div className="contact">
-      <h3>PROFIL</h3>
-      {profil.map((item) => (<p key={item.id} className='text'>{item.text}</p>))}
-      <h3>SOFT SKILLS</h3>
+      <h3>FORMATION</h3>
+      {profil.map((item) => (
+        <>
+          <p key={item.id} className='text-bold'>{item.titre}</p>
+          <p key={item.id} className='text'>{item.text}</p>
+        </>
+       ))}
+      <h3>COMPETENCES</h3>
       {softskills.map((item) => (<p key={item.id} className='text'>{item.text}</p>))}
       <h3>CONTACTEZ-MOI</h3>
       {/* <div className="container">
