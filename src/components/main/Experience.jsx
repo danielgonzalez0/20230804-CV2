@@ -8,8 +8,8 @@ const Experience = () => {
     jobs: [
       {
         id: "exp-1",
-        title: "Responsable Financement & Relation Réseau",
-        sub: 'depuis 10/2022',
+        title: "Responsable Financement Réseau",
+        sub: '10/2022 - 06/2025',
         desc: [{
           id: "desc-1",
           descTitle: "Accompagnement du réseau :",
@@ -23,7 +23,7 @@ const Experience = () => {
           id: "desc-2",
           descTitle: "Pilotage des conditions de financement :",
           descSub: [
-            "Élaboration et suivi des taux appliqués aux concessionnaires, garantissant l’atteinte des objectifs de marge tout en maintenant une position concurrentielle.",
+            "Élaboration et suivi des taux appliqués aux concessionnaires, garantissant l’atteinte des objectifs de marge tout en maintenant une position concurrentielle",
 
           ]
         },
@@ -34,14 +34,14 @@ const Experience = () => {
             "Contrôle de gestion (tarification réseau)",
             "Analystes crédit (gestion des dossiers de crédit, comités crédit)",
             "Équipes terrain (visites communes en concession et partage d’informations)",
-            "Équipes BMW France."
+            "Équipes BMW France"
           ]
         },
         {
           id: "desc-4",
           descTitle: "Encadrement d’une équipe :",
           descSub: [
-            "Pilotage des activités opérationnelles et accompagnement individuel pour développer les compétences de chacun.",
+            "Pilotage des activités opérationnelles et accompagnement individuel pour développer les compétences de chacun",
           ]
         },
         ],

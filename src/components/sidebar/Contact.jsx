@@ -1,18 +1,36 @@
 import React from 'react';
 import telsrc from '../../assets/img/julie/telephoneB.png';
 import mailsrc from '../../assets/img/julie/emailB.png';
-import adressesrc from '../../assets/img/julie/adresseB.png';
+// import adressesrc from '../../assets/img/julie/adresseB.png';
+
+// const profil = [{
+//   id: "profil-1", text: `Experte en financement, j'accompagne quotidiennement les concessionnaires dans la gestion et l’optimisation de leurs financements de stock tout en assurant la compétitivité et la rentabilité des produits de financement proposés.`
+// },
+// { id: "profil-2", text: `Je souhaite aborder l’année 2025 en explorant de nouveaux horizons et en me réinventant dans un nouveau domaine.` },
+// ];
+// const softskills = [{
+//   id: "soft-1", text: `Je juge l’importance des différents sujets et les priorise`
+// },
+// {
+//   id: "soft-2", text: `Je maîtrise la charge de travail pour délivrer dans les délais impartis`
+// },
+// { id: "soft-3", text: `J'apporte des solutions` },
+// { id: "soft-4", text: `Je joue collectif` }
+// ];
 
 const profil = [{
-  id: "profil-1", text: `Experte en financement, j'accompagne quotidiennement les concessionnaires dans la gestion et l’optimisation de leurs financements de stock tout en assurant la compétitivité et la rentabilité des produits de financement proposés.`},
-  { id: "profil-2", text: `Je souhaite aborder l’année 2025 en explorant de nouveaux horizons et en me réinventant dans un nouveau domaine.`},
+  id: "profil-1", text: `Experte en financement, j'accompagne quotidiennement les concessionnaires dans la gestion et l’optimisation de leurs financements de stock tout en assurant la compétitivité et la rentabilité des produits de financement proposés.`
+},
+{ id: "profil-2", text: `Je souhaite aborder l’année 2026 en explorant de nouveaux horizons et en me réinventant dans un nouveau domaine.` },
 ];
 const softskills = [{
-  id: "soft-1", text: `Je juge l’importance des différents sujets et les priorise`},
-  {
-    id: "soft-2", text: `Je maîtrise la charge de travail pour délivrer dans les délais impartis`},
-  { id: "soft-3", text: `J'apporte des solutions` },
-  { id: "soft-4", text: `Je joue collectif` }
+  id: "soft-1", text: `- Gestion des priorités`
+},
+{
+  id: "soft-2", text: `- Respect des délais`
+},
+{ id: "soft-3", text: `- Collaboration` },
+{ id: "soft-4", text: `- Orientée Solution` }
 ];
 
 
@@ -25,17 +43,17 @@ const Contact = () => {
       <h3>SOFT SKILLS</h3>
       {softskills.map((item) => (<p key={item.id} className='text'>{item.text}</p>))}
       <h3>CONTACTEZ-MOI</h3>
-      <div className="container">
+      {/* <div className="container">
         <img src={adressesrc} alt="adresse" />
         <div className="wrapper">
           <p>85 résidence Elysée 2</p>
           <p>78170 La Celle-Saint-Cloud</p>
         </div>
-      </div>
+      </div> */}
       <div className="container">
         <img src={mailsrc} alt="email" />
         <div className="wrapper">
-          <p>julie_hotmail.fr</p>
+          <p>julie_ruault@hotmail.fr</p>
         </div>
       </div>
       <div className="container">
