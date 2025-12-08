@@ -98,8 +98,10 @@
 
 //contact
 .contact {
-  height: 248px;
-  padding: 1.5rem;
+  position: absolute;
+  bottom: -10px;
+  height: 246px;
+  padding: 1.6rem;
   background: $yellow;
   color: $black2;
   position: relative;
@@ -115,15 +117,15 @@
   }
   img {
     position: absolute;
-    bottom: 15px;
+    top: 165px;
     right: 15px;
     width: 50px;
     height: 52px;
   }
 
-  .adresse-container {
-    position: absolute;
-    bottom: 30px;
-    font-size: $h6-font-size;
-  }
+  // .adresse-container {
+  //   position: absolute;
+  //   top: 150px;
+  //   font-size: $h6-font-size;
+  // }
 }

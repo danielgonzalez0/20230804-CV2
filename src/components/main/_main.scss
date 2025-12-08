@@ -1,13 +1,14 @@
 .education,
 .certification,
-.experience, .projets {
+.experience,
+.projets {
   display: grid;
   grid-template-columns: 25% 75%;
   background: $white1;
   .education-left,
   .certification-left,
-  .experience-left, 
-  .projets-left{
+  .experience-left,
+  .projets-left {
     margin-right: 30px;
     p {
       height: 100%;
@@ -33,10 +34,11 @@
 }
 
 .education-container,
-.certification-container, .projets-container {
+.certification-container,
+.projets-container {
   position: relative;
   padding-left: 1.5rem;
-  margin: 1rem 0;
+  margin: 0.7rem 0;
   &:after {
     position: absolute;
     content: '';
@@ -47,7 +49,6 @@
     background: $black2;
     z-index: 1;
   }
-
 }
 .experience-container {
   position: relative;
@@ -65,7 +66,7 @@
   }
 }
 
-.icons-container{
+.icons-container {
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -73,11 +74,11 @@
 
   li {
     display: inline;
-        font-size: $h7-font-size;
-        font-weight: 500;
-        padding: 2px 5px;
-        background: $grey2;
-        color: $white2;
-        border-radius: 5px;
+    font-size: $h7-font-size;
+    font-weight: 500;
+    padding: 2px 5px;
+    background: $grey2;
+    color: $white2;
+    border-radius: 5px;
   }
 }

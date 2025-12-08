@@ -3,8 +3,8 @@ import ContentHook from './ContentHook';
 
 const education = [
   {
-    title: 'titre professionnel CDA (Angular, Spring, MySQL) 09/2024 - 11/2025',
-    sub: 'Wild Code School, Paris',
+    title: 'Concepteur Développeur d’Applications 09/2024 - 11/2025',
+    sub: 'Wild Code School, Paris titre RNCP niveau 6',
   },
   {
     title: 'Développeur Front-end React 09/2022 - 09/2023',

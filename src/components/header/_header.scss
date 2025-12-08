@@ -38,5 +38,10 @@ header {
   p {
     font-size: $h5-font-size;
     font-weight: 400;
+    margin-right: 5px;
+    span {
+      display: block;
+      margin-bottom: 5px;
+    }
   }
 }

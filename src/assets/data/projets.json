@@ -1,13 +1,10 @@
 {
   "projets": [
     {
-      "title": "Pecunia: app gestion budgétaire",
-      "desc": "Projet fullstack sécurisé – Angular front, Spring Boot back, BDD MySQL. Authentification JWT, rôles, validation forte, architecture en couches, CI/CD, Docker.",
+      "title": "Pecunia -Application de gestion budgétaire",
+      "desc": "Projet fullstack sécurisé – Angular front, Spring Boot back, BDD MySQL. Authentification JWT, rôles, validation forte, MVC, CI/CD, Docker.",
 
-      "links": [
-        "https://github.com/Pecunia-App",
-        "https://pecuniapp.com/"
-      ],
+      "links": ["https://github.com/Pecunia-App", "https://pecuniapp.com/"],
       "icons": [
         "ANGULAR",
         "TYPESCRIPT",
@@ -18,8 +15,8 @@
       ]
     },
     {
-      "title": "Quiz App React/GraphQL",
-      "desc": "Application React pour jouer à des quiz. Front en react, Back apollo-server, graphQL pour gérér les données, github actions pour le CI/CD.",
+      "title": "QuizMaster - Application React/GraphQL",
+      "desc": "Application pour jouer à des quiz. Frontend: React et TypeScript, Backend: Apollo Server et GraphQL pour gérer les données. CI/CD: GitHub Actions.",
       "links": [
         "https://github.com/danielgonzalez0/20240119-TS-React-frontend-quizz-app",
         "https://20240119-ts-react-frontend-quizz-app.vercel.app/"
@@ -34,7 +31,7 @@
       ]
     },
     {
-      "title": "Clone Disney plus",
+      "title": "StreamClone - Application de streaming Disney+",
       "desc": "Simulation d’une app de streaming : auth Firebase, persistance des données, appels API, player intégré, routing avancé, state global.",
       "links": [
         "https://github.com/danielgonzalez0/20230812-Disney-plus-test",
@@ -59,7 +56,7 @@
       "icons": ["REACT", "REDUX", "RECHARTS", "AXIOS", "SASS", "API COINGECKO"]
     },
     {
-      "title": "Portail RH - HRnet",
+      "title": "HRnet - interface React",
       "desc": "Interface React pour consulter et gérer une liste d'employés. fonctionnalités: formulaire, dashboard, pagination, tri, filtre, recherche,...",
       "links": [
         "https://github.com/danielgonzalez0/P14-OC-20230612-HRnet",
@@ -75,7 +72,7 @@
       ]
     },
     {
-      "title": "GROUPOMANIA",
+      "title": "Groupomania - Réseau social fullstack",
       "desc": "Création d'un réseau social d'entreprise en React pour le front, Node.js pour le back et MySQL pour la base de données",
       "links": [
         "https://github.com/danielgonzalez0/DanielGonzalez_7_28042022",

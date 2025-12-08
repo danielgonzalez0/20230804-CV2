@@ -13,14 +13,14 @@ const Contact = () => {
         <h4>EMAIL</h4>
         <p>daniel.gonzalez.02@gmail.com</p>
       </div>
-      <div className="container">
-        <h4>PORTFOLIO</h4>
-        <p>gonzalez-daniel.com</p>
-      </div>
       <div className="adresse-container">
         <h4>ADRESSE</h4>
         <p>85 résidence Elysée 2</p>
         <p>78170 La Celle-Saint-Cloud</p>
+      </div>
+      <div className="container">
+        <h4>PORTFOLIO</h4>
+        <p>gonzalez-daniel.com</p>
       </div>
       <img src={qrcode} alt="linkedin qr code" />
     </div>
