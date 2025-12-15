@@ -24,7 +24,7 @@ const Projets = () => {
                   key={index}
                   title={projet.title}
                   desc={projet.desc}
-                  icons={projet.icons}
+                  // icons={projet.icons}
                   links={projet.links}
                 />
 

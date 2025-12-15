@@ -1,17 +1,22 @@
 import React from 'react';
 
-const ContentHook = ({ title, subtitle, desc, icons, links }) => {
+const ContentHook = ({ title, subtitle, desc, array, links }) => {
 
   return (
     <div className="contentHook">
       <h4>{title}</h4>
       <h5>{subtitle}</h5>
       {desc && <ul className='contentHook-desc'>{desc}</ul>}
-      {icons && <ul className='icons-container'>
+      {array && <ul className='contentHook-array'>
+        {array.map((item, index) => (
+          <li key={index}>- {item}</li>
+        ))}
+      </ul> }
+      {/* {icons && <ul className='icons-container'>
         {icons.map((icon, index) => {
           return <li key={index}>{icon}</li>
         })}
-      </ul>}
+      </ul>} */}
       {links && <ul className='links-container'>
         <li>
           <a

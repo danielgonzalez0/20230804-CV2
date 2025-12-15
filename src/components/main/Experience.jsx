@@ -7,6 +7,14 @@ const Experience = () => {
       title: 'Alternant développeur Frontend – Design System',
       sub: 'Société Générale, VDF 09/2024 - 11/2025',
       // desc: `Développpeur front-end React dans l'équipe Design System`,
+      array: [
+        `Développement de composants réutilisables et accessibles WCAG.`,
+        `Migration de composants vers TypeScript, pair programming, revue de code.`,
+        `Support aux équipes consommatrices : analyse et corrections d’issues.`,
+        `Utilisation de React, TypeScript, Storybook, styled-components.`,
+        `Participation à l’implémentation d’un nouveau thème global.`,
+        `Contribution à la transition du DS : sortie progressive de d’Ant Design.`
+      ]
     },
     {
       title: 'Contrôleur de gestion retail 07/2019 - 04/2021',
@@ -33,7 +41,7 @@ const Experience = () => {
     <div className="experience">
       <div className="experience-left">
         <p>
-          <span>EXPERIENCE</span>
+          <span>EXPERIENCES</span>
         </p>
       </div>
       <div className="experience-container">
@@ -43,6 +51,7 @@ const Experience = () => {
             title={work.title}
             subtitle={work.sub}
             desc={work.desc}
+            array={work.array}
           />
         ))}
       </div>

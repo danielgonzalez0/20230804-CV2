@@ -2,7 +2,7 @@
   "projets": [
     {
       "title": "Pecunia -Application de gestion budgétaire",
-      "desc": "Projet fullstack sécurisé – Angular front, Spring Boot back, BDD MySQL. Authentification JWT, rôles, validation forte, MVC, CI/CD, Docker.",
+      "desc": "Développement complet de l’application : Angular, API Spring Boot, sécurité JWT, base MySQL, tests, CI/CD et déploiement Docker.",
 
       "links": ["https://github.com/Pecunia-App", "https://pecuniapp.com/"],
       "icons": [
@@ -16,7 +16,7 @@
     },
     {
       "title": "QuizMaster - Application React/GraphQL",
-      "desc": "Application pour jouer à des quiz. Frontend: React et TypeScript, Backend: Apollo Server et GraphQL pour gérer les données. CI/CD: GitHub Actions.",
+      "desc": "Création d’une interface connectée à une API GraphQL ; mise en place de la CI/CD et gestion des états avec Redux",
       "links": [
         "https://github.com/danielgonzalez0/20240119-TS-React-frontend-quizz-app",
         "https://20240119-ts-react-frontend-quizz-app.vercel.app/"
@@ -32,7 +32,7 @@
     },
     {
       "title": "StreamClone - Application de streaming Disney+",
-      "desc": "Simulation d’une app de streaming : auth Firebase, persistance des données, appels API, player intégré, routing avancé, state global.",
+      "desc": "Simulation d’une app de streaming : auth Firebase, persistance des données, appels API avec React-Query, player intégré, routing, state global avec Redux.",
       "links": [
         "https://github.com/danielgonzalez0/20230812-Disney-plus-test",
         "https://20230812-disney-plus-test.vercel.app/"
@@ -56,8 +56,8 @@
       "icons": ["REACT", "REDUX", "RECHARTS", "AXIOS", "SASS", "API COINGECKO"]
     },
     {
-      "title": "HRnet - interface React",
-      "desc": "Interface React pour consulter et gérer une liste d'employés. fonctionnalités: formulaire, dashboard, pagination, tri, filtre, recherche,...",
+      "title": "HRnet - Application RH React",
+      "desc": "Interface React pour consulter et gérer une liste d'employés. fonctionnalités: formulaire, dashboard, pagination, tri, filtre, recherche avec React-Table",
       "links": [
         "https://github.com/danielgonzalez0/P14-OC-20230612-HRnet",
         "https://p14-oc-20230612-h-rnet.vercel.app/"
@@ -73,7 +73,7 @@
     },
     {
       "title": "Groupomania - Réseau social fullstack",
-      "desc": "Création d'un réseau social d'entreprise en React pour le front, Node.js pour le back et MySQL pour la base de données",
+      "desc": "Application MERN : authentification JWT, gestion des publications, stockage images, CRUD complet, MySQL + Node/Express.",
       "links": [
         "https://github.com/danielgonzalez0/DanielGonzalez_7_28042022",
         "https://www.youtube.com/watch?v=ATJyLR6_BIg"
