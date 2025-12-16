@@ -27,9 +27,18 @@ import React from 'react';
 //   'Autonome, rigoureux, j’aime apprendre et concevoir des solutions claires, maintenables et pensées pour durer.',
 // ]
 const textArray = [
-  `Titulaire de trois titres RNCP et ancien contrôleur de gestion, j’ai réalisé 14 mois d’alternance au Design System de Société Générale (React, TypeScript, accessibilité, Storybook). `,
-  `J’allie rigueur analytique et expertise technique pour concevoir des solutions claires, maintenables et durables, tout en développant mes compétences fullstack.`,
+  `Issu d’une reconversion après plus de dix ans en entreprise, j’aborde le développement avec une approche analytique et structurée : comprendre le besoin, concevoir des solutions maintenables, puis les implémenter avec rigueur.`,
+  `Après une expérience en Design System à la Société Générale et sur un projet Angular / Spring Boot, je recherche aujourd’hui un poste de développeur frontend avec une ouverture fullstack.`,
 ]
+// const textArray = [
+//   `Titulaire de trois titres RNCP et ancien contrôleur de gestion, j’ai réalisé 14 mois d’alternance au Design System de Société Générale (React, TypeScript, accessibilité, Storybook).`,
+//   `En parallèle, j’ai travaillé sur un projet fullstack Angular / Spring Boot, avec une attention particulière portée à la cohérence UI grâce à un Design System.`,
+//   `Curieux, rigoureux, je recherche aujourd’hui un poste de développeur frontend React, avec une ouverture fullstack.`,
+// ]
+// const textArray = [
+//   `Titulaire de trois titres RNCP et ancien contrôleur de gestion, j’ai réalisé 14 mois d’alternance au Design System de Société Générale (React, TypeScript, accessibilité, Storybook). `,
+//   `J’allie rigueur analytique et expertise technique pour concevoir des solutions claires, maintenables et durables, tout en développant mes compétences fullstack.`,
+// ]
 // const textArray = [
 //   `Titulaire de trois titres RNCP, j’ai réalisé 14 mois d’alternance au Design System de la Société Générale, où j’ai travaillé sur React, TypeScript, l’accessibilité et storybook.`,
 //   `Je recherche aujourd’hui des projets web concrets où continuer à progresser. Curieux et rigoureux, j’aime concevoir des solutions claires, maintenables et durables.`,
@@ -48,11 +57,12 @@ const Header = () => {
   return (
     <header>
       <div className="logoCv-container">
-        <p><span>RESUME</span></p>
+        <p><span>PROFIL</span></p>
       </div>
       <div className="about-container">
         <h3>Daniel Gonzalez</h3>
-        <h4>Développeur Frontend en évolution vers le fullstack – React | Angular | Spring Boot</h4>
+        <h4>Développeur Frontend Angular & React / TypeScript</h4>
+        <h5>Design System</h5>
         <p>
         {textArray.map((line, index) => (
           <span key={index}>{line}</span>

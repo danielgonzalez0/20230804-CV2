@@ -1,6 +1,6 @@
 header {
   display: grid;
-  grid-template-columns: 25% 1fr;
+  grid-template-columns: 20% 1fr;
   padding: 0.5rem 0 1rem 0;
   margin-bottom: 20px;
   background-color: $white1;
@@ -10,6 +10,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 60px;
 
   p {
     padding: 35px 20px;
@@ -25,8 +26,7 @@ header {
 }
 
 .about-container {
-  h3,
-  h4 {
+  h3, h5 {
     padding-bottom: 5px;
   }
   h3 {
@@ -34,6 +34,11 @@ header {
   }
   h4 {
     font-size: $h4-font-size;
+  }
+  h5 {
+    font-size: $h4-sub-font-size;
+    font-weight: 500;
+    font-style: italic;
   }
   p {
     font-size: $h5-font-size;

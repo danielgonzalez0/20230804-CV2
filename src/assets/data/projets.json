@@ -1,8 +1,15 @@
 {
   "projets": [
     {
-      "title": "Pecunia -Application de gestion budgétaire",
+      "title": "Pecunia -Application de gestion budgétaire (CDA)",
       "desc": "Développement complet de l’application : Angular, API Spring Boot, sécurité JWT, base MySQL, tests, CI/CD et déploiement Docker.",
+      "descLong": [
+        "Conception et mise en place d’un Design System avec design tokens",
+        "Développement frontend Angular (signals, RxJS, tests)",
+        "Implémentation de l’authentification JWT et gestion des rôles",
+        "Architecture fullstack Angular / Spring Boot / MySQL",
+        "Travail en équipe Agile, GitFlow, CI/CD, Docker"
+      ],
 
       "links": ["https://github.com/Pecunia-App", "https://pecuniapp.com/"],
       "icons": [
@@ -12,7 +19,8 @@
         "MYSQL",
         "CI/CD",
         "DOCKER"
-      ]
+      ],
+      "showed": true
     },
     {
       "title": "QuizMaster - Application React/GraphQL",
@@ -28,7 +36,8 @@
         "APOLLO-SERVER",
         "CI/CD",
         "STYLED-COMPONENTS"
-      ]
+      ],
+      "showed": true
     },
     {
       "title": "StreamClone - Application de streaming Disney+",
@@ -44,7 +53,8 @@
         "REACT-QUERY",
         "STYLED-COMPONENTS",
         "REACT-PLAYER"
-      ]
+      ],
+      "showed": true
     },
     {
       "title": "Dashboard Crypto-monnaies",
@@ -53,7 +63,8 @@
         "https://github.com/danielgonzalez0/TP4-crypto-watch-dashboard-react",
         "https://tp-4-crypto-watch-dashboard-react.vercel.app/"
       ],
-      "icons": ["REACT", "REDUX", "RECHARTS", "AXIOS", "SASS", "API COINGECKO"]
+      "icons": ["REACT", "REDUX", "RECHARTS", "AXIOS", "SASS", "API COINGECKO"],
+      "showed": false
     },
     {
       "title": "HRnet - Application RH React",
@@ -69,7 +80,8 @@
         "REACT-HOOK-FORM",
         "SASS",
         "ESLINT"
-      ]
+      ],
+      "showed": false
     },
     {
       "title": "Groupomania - Réseau social fullstack",
@@ -78,7 +90,8 @@
         "https://github.com/danielgonzalez0/DanielGonzalez_7_28042022",
         "https://www.youtube.com/watch?v=ATJyLR6_BIg"
       ],
-      "icons": ["REACT", "REDUX", "EXPRESS", "NODE.JS", "MYSQL", "SASS"]
+      "icons": ["REACT", "REDUX", "EXPRESS", "NODE.JS", "MYSQL", "SASS"],
+      "showed": false
     }
   ],
   "backup": [

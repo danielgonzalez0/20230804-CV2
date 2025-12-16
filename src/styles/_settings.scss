@@ -32,6 +32,8 @@ $h1-font-size: 1.7rem;
 $h2-font-size: 1.3rem;
 $h3-font-size: 1.1rem;
 $h4-font-size: 1rem;
+$h4-sub-font-size: 0.9rem;
+
 $h5-font-size: 0.7rem;
 $h6-font-size: 0.6rem;
 $h7-font-size: 0.5rem;
@@ -81,11 +83,11 @@ a:visited {
   display: flex;
   position: relative;
   .main {
-    width: 70%;
+    width: 71.5%;
     background-color: $white1;
   }
   .sidebar {
-    width: 30%;
+    width: 29.5%;
     background-color: $black2;
   }
 }

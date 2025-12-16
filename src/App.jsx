@@ -7,6 +7,7 @@ import Education from './components/main/Education';
 import Experience from './components/main/Experience';
 import Footer from './components/footer/Footer';
 import Projets from './components/main/Projets';
+import ExperienceIT from './components/main/ExperienceIT';
 
 const App = () => {
   const pdfRef = useRef(null);
@@ -60,6 +61,7 @@ const App = () => {
           <Header />
           <Footer />
           <div className="main-container">
+            <ExperienceIT/>
            <Projets/>
             <Education />
             <Experience />

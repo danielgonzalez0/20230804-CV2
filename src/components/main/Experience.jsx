@@ -3,19 +3,19 @@ import ContentHook from './ContentHook';
 
 const Experience = () => {
   const experience = [
-    {
-      title: 'Alternant développeur Frontend – Design System',
-      sub: 'Société Générale, VDF 09/2024 - 11/2025',
-      // desc: `Développpeur front-end React dans l'équipe Design System`,
-      array: [
-        `Développement de composants réutilisables et accessibles WCAG.`,
-        `Migration de composants vers TypeScript, pair programming, revue de code.`,
-        `Support aux équipes consommatrices : analyse et corrections d’issues.`,
-        `Utilisation de React, TypeScript, Storybook, styled-components.`,
-        `Participation à l’implémentation d’un nouveau thème global.`,
-        `Contribution à la transition du DS : sortie progressive de d’Ant Design.`
-      ]
-    },
+    // {
+    //   title: 'Alternant développeur Frontend – Design System',
+    //   sub: 'Société Générale, VDF 09/2024 - 11/2025',
+    //   // desc: `Développpeur front-end React dans l'équipe Design System`,
+    //   array: [
+    //     `Développement et évolution des composants du Design System.`,
+    //     `Migration de composants vers TypeScript, pair programming.`,
+    //     `Support aux équipes consommatrices : analyse et corrections d’issues.`,
+    //     `Utilisation de React, TypeScript, Storybook, styled-components.`,
+    //     `Participation à l’implémentation d’un nouveau thème global.`,
+    //     `Contribution à la transition du DS : sortie progressive de d’Ant Design.`
+    //   ]
+    // },
     {
       title: 'Contrôleur de gestion retail 07/2019 - 04/2021',
       sub: 'FCA Capital France, Trappes',
@@ -41,7 +41,7 @@ const Experience = () => {
     <div className="experience">
       <div className="experience-left">
         <p>
-          <span>EXPERIENCES</span>
+          <span>EXPERIENCES ANTERIEURES</span>
         </p>
       </div>
       <div className="experience-container">

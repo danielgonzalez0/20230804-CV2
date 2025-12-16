@@ -3,13 +3,13 @@
 .experience,
 .projets {
   display: grid;
-  grid-template-columns: 25% 75%;
+  grid-template-columns: 18% 82%;
   background: $white1;
   .education-left,
   .certification-left,
   .experience-left,
   .projets-left {
-    margin-right: 30px;
+    margin-right: 20px;
     p {
       height: 100%;
       width: 100%;
@@ -21,6 +21,7 @@
         font-weight: 700;
         color: $black2;
         font-size: $h3-font-size;
+        text-align: center;
       }
     }
   }

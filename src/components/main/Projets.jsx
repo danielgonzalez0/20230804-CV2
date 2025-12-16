@@ -11,15 +11,23 @@ const Projets = () => {
     <div className='projets'>
       <div className="projets-left">
         <p>
-          <span>PROJETS</span>
+          <span>PROJETS SELECTIONNES</span>
         </p>
       </div>
       <div className="projets-container">
         {projets
-          .filter((projet) => (projet.title !== "Dashboard Crypto-monnaies"))
+          .filter((projet) => (projet.showed === true))
           .map((projet, index) => {
             return (
               <>
+                {projet.descLong ?
+                  <ContentHook
+                    key={index}
+                    title={projet.title}
+                    array={projet.descLong}
+                    // icons={projet.icons}
+                    links={projet.links}
+                  /> : 
                 <ContentHook
                   key={index}
                   title={projet.title}
@@ -27,7 +35,7 @@ const Projets = () => {
                   // icons={projet.icons}
                   links={projet.links}
                 />
-
+                }
               </>
             );
           })}
