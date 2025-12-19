@@ -30,11 +30,11 @@ const profil = [{
 const softskills = [{
   id: "soft-1", text: `- Gestion des priorités`
 },
+{ id: "soft-2", text: `- Collaboration` },
 {
-  id: "soft-2", text: `- Respect des délais`
+  id: "soft-3", text: `- Adaptabilité`
 },
-{ id: "soft-3", text: `- Collaboration` },
-{ id: "soft-4", text: `- Orientée Solution` }
+{ id: "soft-4", text: `- Résilience` }
 ];
 
 

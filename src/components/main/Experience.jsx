@@ -9,7 +9,7 @@ const Experience = () => {
       {
         id: "exp-1",
         title: "Responsable Financement Réseau",
-        sub: '10/2022 - 06/2025',
+        sub: '10/2022 - 05/2025',
         desc: [{
           id: "desc-1",
           descTitle: "Accompagnement du réseau :",
@@ -49,13 +49,13 @@ const Experience = () => {
       {
         id: "exp-2",
         title: "Chargée d'études financement réseaux",
-        sub: '11/2019 - 09/2022',
+        sub: '10/2019 - 09/2022',
       }
       ,
       {
         id: "exp-3",
         title: "Analyste crédit financement réseaux",
-        sub: '02/2017 - 10/2019 ',
+        sub: '02/2017 - 09/2019 ',
       },
     ],
   }, // end bmw
