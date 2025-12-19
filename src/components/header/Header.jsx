@@ -61,8 +61,8 @@ const Header = () => {
       </div>
       <div className="about-container">
         <h3>Daniel Gonzalez</h3>
-        <h4>Développeur Frontend Angular & React / TypeScript</h4>
-        <h5>Design System</h5>
+        <h4>Développeur Frontend React / TypeScript</h4>
+        <h5>Design System • Angular</h5>
         <p>
         {textArray.map((line, index) => (
           <span key={index}>{line}</span>
