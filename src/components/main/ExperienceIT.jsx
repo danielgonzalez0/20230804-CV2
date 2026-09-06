@@ -11,7 +11,7 @@ const experience = [
       `Migration de composants vers TypeScript, pair programming.`,
       `Support aux équipes consommatrices : analyse et corrections d’issues.`,
       `Utilisation de React, TypeScript, Storybook, styled-components.`,
-      `Participation à l’implémentation d’un nouveau thème global.`,
+      `Travail sur lʼaccessibilité (WCAG / a11y) et la cohérence UI`,
       `Contribution à la transition du DS : sortie progressive de d’Ant Design.`
     ]
   }
