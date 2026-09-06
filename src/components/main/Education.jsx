@@ -4,6 +4,12 @@ import iconsrc from '../../assets/img/julie/innovationBBG.png';
 
 const experience = [
   {
+    id: "par-0",
+    title: "IFSI VERSAILLES",
+    desc: [`Diplôme d'État d'infrimier | 2026 - 2029`
+    ],
+  },
+  {
     id: "par-1",
     title: "Université de Rennes 1",
     desc: [`Master Économie et Gestion des Entreprises | 2008 - 2010`,
@@ -13,7 +19,7 @@ const experience = [
   ,
   {
     id: "par-3",
-    title: "Programmes d ́échange",
+    title: "Programmes d'échange",
     desc: [`Université de Guadalajara, Mexique | 2009 - 2010`,
       `Université d’Aristotle, Grèce | 2007 - 2008`
     ],

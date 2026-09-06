@@ -17,18 +17,22 @@
   ul {
     font-size: $h5-font-size;
   }
+    li{
+    font-size: $h4-font-size;
+  }
 }
 
 .experience-title,
 .education-title,
 .hobbies-title {
   margin: 5px 0;
+   font-size: $h4-font-size;
 }
 
 .experience-title{
   color: white;
   background-color: $color-secondary;
-  padding: 0 10px;
+  padding: 5px 10px;
 }
 
 .experience-job-title {
@@ -39,7 +43,8 @@
 .job-container {
   display: flex;
   flex-direction: column;
-  gap: 7px;
+  margin-top: 10px;
+  gap: 20px;
   span {
     font-size: $h5-font-size;
     font-weight: 100;
@@ -50,7 +55,11 @@
     flex-direction: column;
     gap: 8px;
     p {
-      font-weight: bold;
+      // font-weight: bold;
+      font-size: $h4-font-size;
+    }
+    li{
+      font-size: $h5-font-size;
     }
   }
 }
@@ -58,6 +67,7 @@
 .education-container {
   h3 {
     display: block;
+     font-size: $h4-font-size;
   }
   li,
   span {

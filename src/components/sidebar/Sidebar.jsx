@@ -13,6 +13,8 @@ const Sidebar = () => {
         />
       </div>
       <h1>JULIE RUAULT</h1>
+      <h2>Etudiante Infirmière</h2>
+      <h2>en 1ère année</h2>
       <div className="user">
         <Contact />
       </div>

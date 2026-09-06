@@ -1,7 +1,7 @@
 import React from 'react';
 import telsrc from '../../assets/img/julie/telephoneB.png';
 import mailsrc from '../../assets/img/julie/emailB.png';
-// import adressesrc from '../../assets/img/julie/adresseB.png';
+import adressesrc from '../../assets/img/julie/adresseB.png';
 
 // const profil = [{
 //   id: "profil-1", text: `Experte en financement, j'accompagne quotidiennement les concessionnaires dans la gestion et l’optimisation de leurs financements de stock tout en assurant la compétitivité et la rentabilité des produits de financement proposés.`
@@ -46,7 +46,7 @@ const Contact = () => {
       {profil.map((item) => (
         <>
           <p key={item.id} className='text-bold'>{item.titre}</p>
-          <p key={item.id} className='text'>{item.text}</p>
+          <p key={item.id + 1} className='text'>{item.text}</p>
         </>
        ))}
       <h3>COMPETENCES</h3>
@@ -69,6 +69,12 @@ const Contact = () => {
         <img src={telsrc} alt="tel" />
         <div className="wrapper">
           <p>06 68 54 62 58</p>
+        </div>
+      </div>
+      <div className="container">
+        <img src={adressesrc} alt="adresse" />
+        <div className="wrapper">
+          <p>La Celle-Saint-Cloud</p>
         </div>
       </div>
       {/* <img src={qrcode} alt="linkedin qr code" /> */}
